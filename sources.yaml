@@ -1,0 +1,35 @@
+podesavanja:
+  naslov: Boox vesti
+  url: https://drcolosso42.github.io/boox-vesti   # u GitHub Actions ga pregazi SITE_URL
+  max_po_izvoru: 6        # koliko novih opinion tekstova po izvoru po pokretanju
+  starost_sati: 36        # stariji tekstovi se preskaču
+  dana_u_feedu: 3         # koliko dana unazad stoji u feed.xml
+  max_vesti_u_digestu: 150
+
+# Pojedinačni sažeci: teza, argumenti, zaključak, ton
+opinioni:
+  - {ime: Peščanik, url: "https://pescanik.net/feed/"}
+  - {ime: Vreme (komentar), url: "https://vreme.com/category/komentar/feed/"}
+  - {ime: Nova (kolumne), url: "https://nova.rs/kolumne/feed/"}
+  - {ime: N1 (kolumne), url: "https://n1info.rs/kolumne/feed/"}
+  - {ime: Guardian Opinion, url: "https://www.theguardian.com/commentisfree/rss"}
+  - {ime: Project Syndicate, url: "https://www.project-syndicate.org/rss"}
+  - {ime: Politico Europe Opinion, url: "https://www.politico.eu/section/opinion/feed/"}
+  - {ime: Foreign Policy, url: "https://foreignpolicy.com/category/analysis/feed/"}
+  - {ime: UnHerd, url: "https://unherd.com/feed/"}
+  - {ime: Persuasion, url: "https://www.persuasion.community/feed"}
+  - {ime: Noahpinion, url: "https://www.noahpinion.blog/feed"}
+  # Paywall (403 za skriptu): dobija se samo naslov i najava u jednoj rečenici.
+  # - {ime: NYT Opinion, url: "https://rss.nytimes.com/services/xml/rss/nyt/Opinion.xml"}
+  # - {ime: The Atlantic Ideas, url: "https://www.theatlantic.com/feed/channel/ideas/"}
+  # - {ime: Economist Leaders, url: "https://www.economist.com/leaders/rss.xml"}
+  # - {ime: FT Opinion, url: "https://www.ft.com/opinion?format=rss"}
+
+# Svi naslovi idu u jedan digest grupisan po događaju
+vesti:
+  - {ime: BBC na srpskom, url: "https://feeds.bbci.co.uk/serbian/lat/rss.xml"}
+  - {ime: N1, url: "https://n1info.rs/vesti/feed/"}
+  - {ime: NIN, url: "https://www.nin.rs/rss/najnovije"}
+  - {ime: Vreme, url: "https://vreme.com/category/vesti/feed/"}
+  - {ime: BBC World, url: "https://feeds.bbci.co.uk/news/world/rss.xml"}
+  - {ime: Guardian World, url: "https://www.theguardian.com/world/rss"}
