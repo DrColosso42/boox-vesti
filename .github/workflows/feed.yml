@@ -2,7 +2,7 @@ name: feed
 
 on:
   schedule:
-    - cron: "0 5,11,17 * * *"   # UTC: jutarnje, podnevno i večernje izdanje
+    - cron: "17 */3 * * *"      # svaka 3h (UTC); :17 jer je GitHub-ov cron u pun sat zagušen
   workflow_dispatch:
 
 permissions:
