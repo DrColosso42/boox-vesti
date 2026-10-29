@@ -33,5 +33,8 @@
       <outline type="rss" text="The Diplomat" title="The Diplomat" xmlUrl="https://thediplomat.com/feed/" htmlUrl="https://thediplomat.com/"/>
       <outline type="rss" text="Semafor" title="Semafor" xmlUrl="https://www.semafor.com/rss.xml" htmlUrl="https://www.semafor.com/"/>
     </outline>
+    <outline text="Tech" title="Tech">
+      <outline type="rss" text="Hacker News (150+ poena)" title="Hacker News (150+ poena)" xmlUrl="https://hnrss.org/frontpage?points=150" htmlUrl="https://news.ycombinator.com/"/>
+    </outline>
   </body>
 </opml>
