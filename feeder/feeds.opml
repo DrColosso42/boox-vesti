@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head><title>Boox feed-ovi</title></head>
+  <body>
+    <outline text="Boox vesti" title="Boox vesti">
+      <outline type="rss" text="Opinioni (sažeci)" title="Opinioni (sažeci)" xmlUrl="https://drcolosso42.github.io/boox-vesti/opinioni.xml" htmlUrl="https://drcolosso42.github.io/boox-vesti/"/>
+      <outline type="rss" text="Vesti (digest)" title="Vesti (digest)" xmlUrl="https://drcolosso42.github.io/boox-vesti/vesti.xml" htmlUrl="https://drcolosso42.github.io/boox-vesti/"/>
+    </outline>
+    <outline text="Kultura" title="Kultura">
+      <outline type="rss" text="Aeon" title="Aeon" xmlUrl="https://aeon.co/feed.rss" htmlUrl="https://aeon.co/"/>
+      <outline type="rss" text="Psyche" title="Psyche" xmlUrl="https://psyche.co/feed" htmlUrl="https://psyche.co/"/>
+      <outline type="rss" text="The Marginalian" title="The Marginalian" xmlUrl="https://www.themarginalian.org/feed/" htmlUrl="https://www.themarginalian.org/"/>
+      <outline type="rss" text="Guardian Books" title="Guardian Books" xmlUrl="https://www.theguardian.com/books/rss" htmlUrl="https://www.theguardian.com/books"/>
+      <outline type="rss" text="Literary Hub" title="Literary Hub" xmlUrl="https://lithub.com/feed/" htmlUrl="https://lithub.com/"/>
+      <outline type="rss" text="The Paris Review" title="The Paris Review" xmlUrl="https://www.theparisreview.org/blog/feed/" htmlUrl="https://www.theparisreview.org/blog/"/>
+      <outline type="rss" text="Hyperallergic" title="Hyperallergic" xmlUrl="https://hyperallergic.com/feed/" htmlUrl="https://hyperallergic.com/"/>
+      <outline type="rss" text="Open Culture" title="Open Culture" xmlUrl="https://www.openculture.com/feed" htmlUrl="https://www.openculture.com/"/>
+      <outline type="rss" text="3 Quarks Daily" title="3 Quarks Daily" xmlUrl="https://3quarksdaily.com/feed" htmlUrl="https://3quarksdaily.com/"/>
+      <outline type="rss" text="Nautilus" title="Nautilus" xmlUrl="https://nautil.us/feed/" htmlUrl="https://nautil.us/"/>
+      <outline type="rss" text="The Public Domain Review" title="The Public Domain Review" xmlUrl="https://publicdomainreview.org/rss.xml" htmlUrl="https://publicdomainreview.org/"/>
+      <outline type="rss" text="Bookvar" title="Bookvar" xmlUrl="https://www.bookvar.rs/feed/" htmlUrl="https://www.bookvar.rs/"/>
+      <outline type="rss" text="Vreme (kultura)" title="Vreme (kultura)" xmlUrl="https://vreme.com/category/kultura/feed/" htmlUrl="https://vreme.com/category/kultura/"/>
+      <outline type="rss" text="Nova (kultura)" title="Nova (kultura)" xmlUrl="https://nova.rs/kultura/feed/" htmlUrl="https://nova.rs/kultura/"/>
+    </outline>
+    <outline text="Svet" title="Svet">
+      <outline type="rss" text="BBC World" title="BBC World" xmlUrl="https://feeds.bbci.co.uk/news/world/rss.xml" htmlUrl="https://www.bbc.com/news/world"/>
+      <outline type="rss" text="Guardian World" title="Guardian World" xmlUrl="https://www.theguardian.com/world/rss" htmlUrl="https://www.theguardian.com/world"/>
+      <outline type="rss" text="Al Jazeera" title="Al Jazeera" xmlUrl="https://www.aljazeera.com/xml/rss/all.xml" htmlUrl="https://www.aljazeera.com/"/>
+      <outline type="rss" text="NPR World" title="NPR World" xmlUrl="https://feeds.npr.org/1004/rss.xml" htmlUrl="https://www.npr.org/sections/world/"/>
+      <outline type="rss" text="DW World" title="DW World" xmlUrl="https://rss.dw.com/rdf/rss-en-world" htmlUrl="https://www.dw.com/en/"/>
+      <outline type="rss" text="Rest of World" title="Rest of World" xmlUrl="https://restofworld.org/feed/latest" htmlUrl="https://restofworld.org/"/>
+      <outline type="rss" text="Balkan Insight" title="Balkan Insight" xmlUrl="https://balkaninsight.com/feed/" htmlUrl="https://balkaninsight.com/"/>
+      <outline type="rss" text="The Diplomat" title="The Diplomat" xmlUrl="https://thediplomat.com/feed/" htmlUrl="https://thediplomat.com/"/>
+      <outline type="rss" text="Semafor" title="Semafor" xmlUrl="https://www.semafor.com/rss.xml" htmlUrl="https://www.semafor.com/"/>
+    </outline>
+  </body>
+</opml>
