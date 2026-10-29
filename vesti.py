@@ -43,6 +43,7 @@ Vrati JSON:
 
 SISTEM_VESTI = """Dobijaš listu naslova vesti iz više izvora, u formatu [indeks] izvor | naslov | opis.
 Grupiši ih po događaju (isti događaj iz više izvora = jedna stavka) i poređaj po važnosti.
+Vrati najviše 30 najvažnijih događaja.
 Izostavi sport, zabavu, estradu, horoskop i promotivne tekstove, osim ako su zaista velika vest.
 Piši na srpskom jeziku, latinicom, činjenično, bez ocena.
 Vrati JSON:
@@ -142,7 +143,7 @@ def obradi_opinion(client, s):
 
 def napravi_digest(client, vesti, sad, url):
     lista = "\n".join(f"[{i}] {v['izvor']} | {v['naslov']} | {v['opis'][:300]}" for i, v in enumerate(vesti))
-    o = pitaj(client, SISTEM_VESTI, lista, max_tokens=6000)
+    o = pitaj(client, SISTEM_VESTI, lista, max_tokens=8000)
     if not o or not o.get("dogadjaji"):
         return None
     delovi = []
