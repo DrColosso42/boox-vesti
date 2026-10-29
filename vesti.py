@@ -252,6 +252,9 @@ def main():
     naslov = p["naslov"]
     for ime, opis, vrste in (("feed.xml", "Opinioni i vesti, sažeto", ("opinion", "vesti")),
                              ("opinioni.xml", "Opinioni, sažeto", ("opinion",)),
+                             # isti linkovi, drugi naslov kanala: KOReader sa download_full_article
+                             # skida original u poseban folder (sažetak tada ne ubacuje)
+                             ("originali.xml", "Opinioni, ceo tekst", ("opinion",)),
                              ("vesti.xml", "Digest vesti po događaju", ("vesti",))):
         (SITE / ime).write_text(rss(f"{naslov}: {opis}", opis, url, ime,
                                     [s for s in u_feedu if s["vrsta"] in vrste]))
