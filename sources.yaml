@@ -13,7 +13,6 @@ opinioni:
   - {ime: Nova (kolumne), url: "https://nova.rs/kolumne/feed/"}
   - {ime: N1 (kolumne), url: "https://n1info.rs/kolumne/feed/"}
   - {ime: Guardian Opinion, url: "https://www.theguardian.com/commentisfree/rss"}
-  - {ime: Project Syndicate, url: "https://www.project-syndicate.org/rss"}
   - {ime: Politico Europe Opinion, url: "https://www.politico.eu/section/opinion/feed/"}
   - {ime: Foreign Policy, url: "https://foreignpolicy.com/category/analysis/feed/"}
   - {ime: UnHerd, url: "https://unherd.com/feed/"}
@@ -24,6 +23,8 @@ opinioni:
   # - {ime: The Atlantic Ideas, url: "https://www.theatlantic.com/feed/channel/ideas/"}
   # - {ime: Economist Leaders, url: "https://www.economist.com/leaders/rss.xml"}
   # - {ime: FT Opinion, url: "https://www.ft.com/opinion?format=rss"}
+  # Delimičan paywall: stranica daje samo prva 2 pasusa (~1000 znakova), sažetak bi bio iz uvoda.
+  # - {ime: Project Syndicate, url: "https://www.project-syndicate.org/rss"}
 
 # Svi naslovi idu u jedan digest grupisan po događaju
 vesti:

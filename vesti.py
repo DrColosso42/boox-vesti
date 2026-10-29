@@ -30,7 +30,7 @@ SITE = KOREN / "site"
 BG = ZoneInfo("Europe/Belgrade")
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
 MODEL = os.environ.get("DEEPSEEK_MODEL", "deepseek-flash")
-MIN_TEKST = 800     # kraće od ovoga = paywall ili neuspelo izvlačenje, ostaje samo najava
+MIN_TEKST = 1500    # kraće od ovoga = paywall ili neuspelo izvlačenje, ostaje samo najava
 
 SISTEM_OPINION = """Praviš sažetke opinion tekstova (kolumne, komentari, eseji) za čitaoca na e-ink čitaču.
 Piši na srpskom jeziku, latinicom, bez obzira na jezik originala.
@@ -245,7 +245,10 @@ def main():
         videno[s["link"]] = sad.isoformat()
     granica = (sad - timedelta(days=7)).isoformat()
     stanje["videno"] = {k: v for k, v in videno.items() if v >= granica}
-    stavke = {s["id"]: s for s in stanje["stavke"] + nove}.values()
+    # izvor izbačen iz sources.yaml -> njegovi opinioni odmah nestaju iz feed-a
+    aktivni = {i["ime"] for i in cfg["opinioni"]}
+    stare = [s for s in stanje["stavke"] if s["vrsta"] != "opinion" or s["izvor"] in aktivni]
+    stavke = {s["id"]: s for s in stare + nove}.values()
     stanje["stavke"] = sorted((s for s in stavke if s["kad"] >= granica), key=lambda s: s["kad"], reverse=True)
     f_stanje.write_text(json.dumps(stanje, ensure_ascii=False, indent=1))
 
