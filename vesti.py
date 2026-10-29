@@ -147,7 +147,7 @@ def napravi_digest(client, vesti, sad, url):
     if not o or not o.get("dogadjaji"):
         return None
     delovi = []
-    for d in o["dogadjaji"]:
+    for d in o["dogadjaji"][:30]:
         izv = {}     # po jedan link po izvoru, da ne piše "BBC · BBC · BBC"
         for i in d.get("izvori", []):
             if isinstance(i, int) and 0 <= i < len(vesti):
@@ -156,7 +156,9 @@ def napravi_digest(client, vesti, sad, url):
         delovi.append(f"<h3>{esc(d.get('naslov'))}</h3>\n<p>{esc(d.get('sazetak'))}</p>\n<p><small>{linkovi}</small></p>")
     lokalno = sad.astimezone(BG)
     oznaka = f"digest-{lokalno:%Y%m%d-%H%M}"
-    return {"id": oznaka, "vrsta": "vesti", "naslov": f"Vesti {lokalno:%d.%m. u %H:%M} ({len(delovi)} događaja)",
+    n = len(delovi)
+    rec = "događaj" if n % 10 == 1 and n % 100 != 11 else "događaja"
+    return {"id": oznaka, "vrsta": "vesti", "naslov": f"Vesti {lokalno:%d.%m. u %H:%M} ({n} {rec})",
             "link": f"{url}/#{oznaka}", "autor": "", "izvor": "Digest", "kad": sad.isoformat(),
             "html": "\n".join(delovi)}
 
