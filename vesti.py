@@ -4,7 +4,7 @@ Opinion tekstovi idu pojedinačno (teza, argumenti, zaključak, ton); naslovi ve
 skupljaju u jedan digest grupisan po događaju. Stanje (obrađeni linkovi i stavke) je u
 site/stanje.json, pa svako pokretanje obrađuje samo novo.
 
-    python vesti.py             # obradi novo, upiši site/{feed,opinioni,vesti}.xml i index.html
+    python vesti.py             # obradi novo, upiši site/{feed,opinioni,vesti,tech}.xml i index.html
     python vesti.py --max 1     # brza proba: najviše 1 opinion po izvoru
 """
 import argparse
@@ -50,6 +50,31 @@ Vrati JSON:
 {"dogadjaji": [{"naslov": "kratak naslov događaja",
                 "sazetak": "2-3 rečenice: šta se desilo, ko, gde, zašto je bitno",
                 "izvori": [indeksi vesti iz liste]}]}"""
+
+SISTEM_TECH = """Dobijaš listu naslova iz izvora o bezbednosti, Linuxu i DevOps-u, u formatu [indeks] izvor | naslov | opis.
+Čitalac je DevOps inženjer i sistem administrator. Zadrži samo prave vesti:
+- kritične ili aktivno iskorišćene ranjivosti u široko korišćenom softveru (CVE, šta je pogođeno, koja verzija popravlja)
+- potvrđeni napadi, curenja podataka i incidenti
+- izdanja i bitne promene: Linux kernel, distribucije, systemd, OpenSSH, Kubernetes, Docker, baze, ključni alati
+- bezbednosno istraživanje sa konkretnim nalazom
+- veći ispadi servisa i postmortemi
+- hapšenja, sankcije i propisi koji menjaju sliku
+Izbaci: saopštenja firmi o novim proizvodima ("X launches Y"), marketing, webinare, popuste, liste tipa "top 10",
+savete i tutorijale bez vesti, nagađanja, prognoze i ankete, AI hype bez konkretnog nalaza, benchmark-e bez značaja,
+sponzorisane tekstove i nedeljne preglede.
+Isti događaj iz više izvora = jedna stavka. Poređaj po važnosti, najviše 15.
+Bolje manje nego slab sadržaj: ako ništa nije vredno, vrati prazan niz.
+Piši na srpskom jeziku, latinicom, sažeto i činjenično. Nazive softvera, firmi i ustanova, CVE oznake i tehničke termine ostavi u originalu.
+Vrati JSON:
+{"dogadjaji": [{"naslov": "kratak naslov",
+                "sazetak": "1-3 rečenice: šta se desilo, koga pogađa, šta uraditi ako je primenljivo",
+                "izvori": [indeksi vesti iz liste]}]}"""
+
+# vrsta stavke -> sekcija u sources.yaml, prompt, naslov, najviše stavki, množina (1 / ostalo), prefiks id-a
+DIGESTI = {
+    "vesti": ("vesti", SISTEM_VESTI, "Vesti", 30, ("događaj", "događaja"), "digest"),
+    "tech": ("tech", SISTEM_TECH, "Sec/Linux/DevOps", 15, ("vest", "vesti"), "tech"),
+}
 
 
 def cist(s):
@@ -141,13 +166,17 @@ def obradi_opinion(client, s):
             "autor": s["autor"], "izvor": s["izvor"], "kad": s["kad"], "html": "\n".join(delovi)}
 
 
-def napravi_digest(client, vesti, sad, url):
+def napravi_digest(client, vrsta, vesti, sad, url):
+    """None = LLM nije uspeo (iste vesti idu ponovo), {} = ništa vredno (tech sme da bude prazan)."""
+    _, sistem, naslov, max_n, (rec1, rec_n), prefiks = DIGESTI[vrsta]
     lista = "\n".join(f"[{i}] {v['izvor']} | {v['naslov']} | {v['opis'][:300]}" for i, v in enumerate(vesti))
-    o = pitaj(client, SISTEM_VESTI, lista, max_tokens=8000)
-    if not o or not o.get("dogadjaji"):
+    o = pitaj(client, sistem, lista, max_tokens=8000)
+    if not o or "dogadjaji" not in o:
         return None
+    if not o["dogadjaji"]:
+        return {} if vrsta == "tech" else None
     delovi = []
-    for d in o["dogadjaji"][:30]:
+    for d in o["dogadjaji"][:max_n]:
         izv = {}     # po jedan link po izvoru, da ne piše "BBC · BBC · BBC"
         for i in d.get("izvori", []):
             if isinstance(i, int) and 0 <= i < len(vesti):
@@ -155,10 +184,10 @@ def napravi_digest(client, vesti, sad, url):
         linkovi = " · ".join(f'<a href="{esc(link)}">{esc(ime)}</a>' for ime, link in izv.items())
         delovi.append(f"<h3>{esc(d.get('naslov'))}</h3>\n<p>{esc(d.get('sazetak'))}</p>\n<p><small>{linkovi}</small></p>")
     lokalno = sad.astimezone(BG)
-    oznaka = f"digest-{lokalno:%Y%m%d-%H%M}"
+    oznaka = f"{prefiks}-{lokalno:%Y%m%d-%H%M}"
     n = len(delovi)
-    rec = "događaj" if n % 10 == 1 and n % 100 != 11 else "događaja"
-    return {"id": oznaka, "vrsta": "vesti", "naslov": f"Vesti {lokalno:%d.%m. u %H:%M} ({n} {rec})",
+    rec = rec1 if n % 10 == 1 and n % 100 != 11 else rec_n
+    return {"id": oznaka, "vrsta": vrsta, "naslov": f"{naslov} {lokalno:%d.%m. u %H:%M} ({n} {rec})",
             "link": f"{url}/#{oznaka}", "autor": "", "izvor": "Digest", "kad": sad.isoformat(),
             "html": "\n".join(delovi)}
 
@@ -183,12 +212,13 @@ def rss(naslov, opis, url, putanja, stavke):
 
 
 def index_html(naslov, stavke):
-    """Jedna strana za e-ink browser: poslednji digest pa opinioni, bez JS-a i slika."""
-    digest = next((s for s in stavke if s["vrsta"] == "vesti"), None)
+    """Jedna strana za e-ink browser: poslednji digesti pa opinioni, bez JS-a i slika."""
     opinioni = [s for s in stavke if s["vrsta"] == "opinion"][:60]
     telo = []
-    if digest:
-        telo.append(f'<h2 id="{esc(digest["id"])}">{esc(digest["naslov"])}</h2>\n{digest["html"]}')
+    for vrsta in DIGESTI:
+        digest = next((s for s in stavke if s["vrsta"] == vrsta), None)
+        if digest:
+            telo.append(f'<h2 id="{esc(digest["id"])}">{esc(digest["naslov"])}</h2>\n{digest["html"]}')
     telo.append("<h2>Opinioni</h2>")
     for s in opinioni:
         telo.append(f'<article><h3>{esc(s["naslov"])}</h3>\n{s["html"]}</article>')
@@ -202,7 +232,7 @@ a{{color:#000}} h2{{border-bottom:3px solid #000;margin-top:2em}} h3{{margin:1.4
 article{{border-bottom:1px solid #000;padding-bottom:.6em}} small{{font-size:16px}}
 </style></head><body>
 <h1>{esc(naslov)}</h1>
-<p><small>Feed: <a href="feed.xml">sve</a> · <a href="opinioni.xml">opinioni</a> · <a href="vesti.xml">vesti</a></small></p>
+<p><small>Feed: <a href="feed.xml">sve</a> · <a href="opinioni.xml">opinioni</a> · <a href="vesti.xml">vesti</a> · <a href="tech.xml">sec/linux/devops</a></small></p>
 {chr(10).join(telo)}
 </body></html>
 """
@@ -230,20 +260,25 @@ def main():
     with ThreadPoolExecutor(8) as ex:
         opinioni = [s for lst in ex.map(lambda i: ucitaj_feed(i, od, videno), cfg["opinioni"])
                     for s in lst[:max_po_izvoru]]
-        vesti = [s for lst in ex.map(lambda i: ucitaj_feed(i, od, videno), cfg["vesti"]) for s in lst]
+        za_digest = {vrsta: [s for lst in ex.map(lambda i: ucitaj_feed(i, od, videno), cfg.get(sekcija, []))
+                             for s in lst]
+                     for vrsta, (sekcija, *_) in DIGESTI.items()}
         nove = list(ex.map(lambda s: obradi_opinion(client, s), opinioni))
-    print(f"opinioni: {len(nove)}, vesti za digest: {len(vesti)}")
+    print(f"opinioni: {len(nove)}, " + ", ".join(f"{v} za digest: {len(l)}" for v, l in za_digest.items()))
 
-    vesti.sort(key=lambda v: v["kad"], reverse=True)
-    vesti = vesti[:p["max_vesti_u_digestu"]]
-    if vesti:
-        digest = napravi_digest(client, vesti, sad, url)
+    obradjeno = list(opinioni)
+    for vrsta, vesti in za_digest.items():
+        vesti = sorted(vesti, key=lambda v: v["kad"], reverse=True)[:p["max_vesti_u_digestu"]]
+        if not vesti:
+            continue
+        digest = napravi_digest(client, vrsta, vesti, sad, url)
+        if digest is None:
+            continue        # digest nije uspeo: iste vesti ponovo sledeći put
         if digest:
             nove.append(digest)
-        else:
-            vesti = []      # digest nije uspeo: iste vesti ponovo sledeći put
+        obradjeno += vesti
 
-    for s in opinioni + vesti:
+    for s in obradjeno:
         videno[s["link"]] = sad.isoformat()
     granica = (sad - timedelta(days=7)).isoformat()
     stanje["videno"] = {k: v for k, v in videno.items() if v >= granica}
@@ -256,12 +291,13 @@ def main():
 
     u_feedu = [s for s in stanje["stavke"] if s["kad"] >= (sad - timedelta(days=p["dana_u_feedu"])).isoformat()]
     naslov = p["naslov"]
-    for ime, opis, vrste in (("feed.xml", "Opinioni i vesti, sažeto", ("opinion", "vesti")),
+    for ime, opis, vrste in (("feed.xml", "Opinioni i vesti, sažeto", ("opinion", "vesti", "tech")),
                              ("opinioni.xml", "Opinioni, sažeto", ("opinion",)),
                              # isti linkovi, drugi naslov kanala: KOReader sa download_full_article
                              # skida original u poseban folder (sažetak tada ne ubacuje)
                              ("originali.xml", "Opinioni, ceo tekst", ("opinion",)),
-                             ("vesti.xml", "Digest vesti po događaju", ("vesti",))):
+                             ("vesti.xml", "Digest vesti po događaju", ("vesti",)),
+                             ("tech.xml", "Bezbednost, Linux, DevOps", ("tech",))):
         (SITE / ime).write_text(rss(f"{naslov}: {opis}", opis, url, ime,
                                     [s for s in u_feedu if s["vrsta"] in vrste]))
     (SITE / "index.html").write_text(index_html(naslov, u_feedu))

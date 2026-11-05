@@ -34,6 +34,7 @@
       <outline type="rss" text="Semafor" title="Semafor" xmlUrl="https://www.semafor.com/rss.xml" htmlUrl="https://www.semafor.com/"/>
     </outline>
     <outline text="Tech" title="Tech">
+      <outline type="rss" text="Sec/Linux/DevOps (digest)" title="Sec/Linux/DevOps (digest)" xmlUrl="https://drcolosso42.github.io/boox-vesti/tech.xml" htmlUrl="https://drcolosso42.github.io/boox-vesti/"/>
       <outline type="rss" text="Hacker News (150+ poena)" title="Hacker News (150+ poena)" xmlUrl="https://hnrss.org/frontpage?points=150" htmlUrl="https://news.ycombinator.com/"/>
     </outline>
   </body>

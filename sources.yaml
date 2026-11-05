@@ -34,3 +34,21 @@ vesti:
   - {ime: Vreme, url: "https://vreme.com/category/vesti/feed/"}
   - {ime: BBC World, url: "https://feeds.bbci.co.uk/news/world/rss.xml"}
   - {ime: Guardian World, url: "https://www.theguardian.com/world/rss"}
+
+# Sec/Linux/DevOps digest (tech.xml): strog filter, bez PR-a i vendor slop-a.
+# Namerno izostavljeni: The Hacker News, Help Net, SecurityWeek, Dark Reading (mnogo saopštenja i sponzorisanog)
+tech:
+  - {ime: Krebs on Security, url: "https://krebsonsecurity.com/feed/"}
+  - {ime: Schneier, url: "https://www.schneier.com/feed/atom/"}
+  - {ime: The Record, url: "https://therecord.media/feed"}
+  - {ime: BleepingComputer, url: "https://www.bleepingcomputer.com/feed/"}
+  - {ime: Ars Technica Security, url: "https://arstechnica.com/security/feed/"}
+  - {ime: Risky Bulletin, url: "https://news.risky.biz/rss/"}
+  - {ime: SANS ISC, url: "https://isc.sans.edu/rssfeed_full.xml"}
+  - {ime: Project Zero, url: "https://googleprojectzero.blogspot.com/feeds/posts/default"}
+  - {ime: The Register Security, url: "https://www.theregister.com/security/headlines.atom"}
+  - {ime: The Register Software, url: "https://www.theregister.com/software/headlines.atom"}
+  - {ime: LWN, url: "https://lwn.net/headlines/rss"}
+  - {ime: Phoronix, url: "https://www.phoronix.com/rss.php"}
+  - {ime: Kubernetes blog, url: "https://kubernetes.io/feed.xml"}
+  - {ime: Lobsters, url: "https://lobste.rs/t/security,linux,devops.rss"}

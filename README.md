@@ -2,7 +2,7 @@
 
 Sopstveni RSS feed za e-ink čitač: opinioni sažeti pojedinačno (teza, argumenti, zaključak, ton) i vesti u digestu grupisanom po događaju. Sažetke pravi DeepSeek, a GitHub Actions ga pokreće na svaka 3h i objavljuje na GitHub Pages.
 
-- `feed.xml`: sve, `opinioni.xml`: samo opinioni, `vesti.xml`: samo digest
+- `feed.xml`: sve, `opinioni.xml`: samo opinioni, `vesti.xml`: digest vesti, `tech.xml`: digest bezbednost/Linux/DevOps
 - `originali.xml`: isti opinioni, za KOReader sa `download_full_article=true` (skida ceo original)
 - `index.html`: ista sadržina kao jedna strana za e-ink browser
 
