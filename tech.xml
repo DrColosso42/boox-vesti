@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Boox vesti: Bezbednost, Linux, DevOps</title><link>https://DrColosso42.github.io/boox-vesti/</link><description>Bezbednost, Linux, DevOps</description><language>sr</language><lastBuildDate>Sat, 14 Nov 2026 20:21:29 +0000</lastBuildDate><atom:link href="https://DrColosso42.github.io/boox-vesti/tech.xml" rel="self" type="application/rss+xml"/>
+<item><title>Sec/Linux/DevOps 14.11. u 19:11 (1 vest)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261114-1911</link><guid isPermaLink="false">tech-20261114-1911</guid><pubDate>Sat, 14 Nov 2026 18:11:53 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>Cursor potvrdio bezbednosni incident: zlonamerni Claude Code ekstenzija u marketplace-u</h3>
+<p>Cursor je potvrdio da je pretrpeo bezbednosni incident nakon što su napadači ukrali kredencijale od AI provajdera Fireworks AI i preko Cursor marketplace-a distribuirali zlonamernu Claude Code ekstenziju. Pogođeni su korisnici koji su instalirali tu ekstenziju; preporučuje se uklanjanje sumnjivih ekstenzija i rotacija API ključeva i kredencijala.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/">BleepingComputer</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 14.11. u 18:22 (1 vest)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261114-1822</link><guid isPermaLink="false">tech-20261114-1822</guid><pubDate>Sat, 14 Nov 2026 17:22:14 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>SAD razbile severnokorejsku kampanju &#x27;FaceStealer&#x27; sa preko 400 miliona dolara ukradene kriptovalute</h3>
+<p>Američka vlada je prekinula severnokorejsku social engineering kampanju &#x27;FaceStealer&#x27;, odgovornu za krađu više od 400 miliona dolara u kriptovaluti. Napad je ciljao korisnike kriptovaluta putem lažnih identiteta i manipulacije.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/">BleepingComputer</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 14.11. u 00:21 (2 vesti)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261114-0021</link><guid isPermaLink="false">tech-20261114-0021</guid><pubDate>Fri, 13 Nov 2026 23:21:07 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>FBI upozorava na Artex alat koji automatizuje cybernapade</h3>
+<p>FBI je objavio flash alert o open source hacking alatu Artex koji značajno skraćuje vreme za lančanje napadačkih tehnika, sa upadima od početnog targetiranja do privilegovanog pristupa za manje od tri sata. Alat automatizuje napade &#x27;mašinskom brzinom&#x27; i predstavlja rizik za organizacije izložene penetracijama.</p>
+<p><small><a href="https://therecord.media/artex-ai-tool-fbi-flash-alert">The Record</a></small></p>
+<h3>Više RCE ranjivosti u Danfoss AK-SM800A</h3>
+<p>Prijavljene su višestruke ranjivosti za remote code execution u Danfoss AK-SM800A kontroleru. Preporučuje se provera verzije i primena dostupnih popravki ili izolacija uređaja.</p>
+<p><small><a href="https://www.midnightblue.nl/blog/multiple-rce-danfoss-aksm800a">Lobsters</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 13.11. u 21:21 (1 vest)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261113-2121</link><guid isPermaLink="false">tech-20261113-2121</guid><pubDate>Fri, 13 Nov 2026 20:21:09 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>Grad Osaka upozorava na curenje podataka koje pogađa milion ljudi</h3>
+<p>Grad Osaka je saopštio da je curenje podataka pogodilo oko milion ljudi i upozorio 2,8 miliona stanovnika na sumnjive mejlove koji se predstavljaju kao poruke lokalne uprave. Incident je deo talasa sajber napada u Japanu.</p>
+<p><small><a href="https://therecord.media/city-of-osaka-japan-email-data-breach">The Record</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 13.11. u 20:47 (4 vesti)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261113-2047</link><guid isPermaLink="false">tech-20261113-2047</guid><pubDate>Fri, 13 Nov 2026 19:47:50 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>Trezor potvrdio zlonamerni hardver u tri novčanika, izdao popravku</h3>
+<p>Trezor je potvrdio da su tri Safe 5 uređaja prodata preko reselera CryptoBilis u jugoistočnoj Aziji sadržala hardverske implante za krađu recovery fraza i slanje napadačima preko mobilne mreže. Korisnici koji su kupili uređaj preko tog reselera treba da provere integritet uređaja i primene izdatu popravku.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/">BleepingComputer</a></small></p>
+<h3>Sajber napad poremetio operacije nemačkih vojnih dronova</h3>
+<p>Nemačka odbrambena kompanija Quantum Systems potvrdila je incident krajem oktobra koji je bio deo aktivnog sajber napada „neprijateljskih aktera“ na operacije vojnih dronova. Detalji o obimu kompromitacije nisu objavljeni.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/">BleepingComputer</a></small></p>
+<h3>Univerzitet u Teksasu u Arlingtonu: ukradeni lični podaci u sajber napadu</h3>
+<p>Univerzitet je upozorio da su lični podaci ukradeni tokom sajber napada; istraga je potvrdila krađu, ali nije objavljeno koji su podaci pogođeni. Pogođeni treba da prate obaveštenja ustanove o daljim koracima.</p>
+<p><small><a href="https://therecord.media/university-of-texas-arlington-warns-data-breach">The Record</a></small></p>
+<h3>NYC uvodi zabranu nadzornog određivanja cena</h3>
+<p>Njujork će moći da kazni kompanije sa 1.000 dolara po potvrđenom slučaju nadzornog određivanja cena, dok slične zabrane dobijaju zamah širom SAD. Propis menja pravila za kompanije koje koriste lične podatke za cenovnu diskriminaciju.</p>
+<p><small><a href="https://therecord.media/nyc-council-passes-bill-ban-surveillance-pricing">The Record</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 13.11. u 18:21 (10 vesti)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261113-1821</link><guid isPermaLink="false">tech-20261113-1821</guid><pubDate>Fri, 13 Nov 2026 17:21:05 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>Windows 0-day &quot;SignDrop&quot; daje hakere sa System pravima</h3>
+<p>Nezadovoljni istraživač je objavio 0-day exploit za Windows koji lokalnim korisnicima omogućava sticanje System privilegija. Nema zvanične zakrpe; preporučuje se praćenje Microsoftovog odgovora i ograničavanje lokalnog pristupa.</p>
+<p><small><a href="https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/">Ars Technica Security</a></small></p>
+<h3>Check Point gateways napadnuti preko PHP2Shell, ESXi wiper</h3>
+<p>Ranjive Check Point Security Gateway instance napadnute su u PHP2Shell kampanji koja je na VMware ESXi hostove postavila malware za brisanje podataka. Potrebno je hitno zakrpiti gateway uređaje i proveriti ESXi hostove.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/">BleepingComputer</a></small></p>
+<h3>Nemački parlament usvojio zakon o hakerskim i sabotažnim ovlašćenjima obaveštajnih službi</h3>
+<p>Bundestag je sa 308 glasova za i 190 protiv usvojio najveću reformu posleratnih zakona o obaveštajnim službama, dajući im ovlašćenja za hakovanje i sabotažu. Zakon menja pravni okvir za bezbednosne i IT timove u Nemačkoj.</p>
+<p><small><a href="https://therecord.media/german-parliament-passes-law-giving-spy-agencies-hacking-power">The Record</a></small></p>
+<h3>TSMC potvrdio curenje podataka zaposlenih preko cloud provajdera</h3>
+<p>TSMC je potvrdio da su podaci zaposlenih procureli preko cloud servisa, ali tvrdi da sistemi kompanije nisu kompromitovani i da podaci nisu vezani za operacije ili kupce. Incident ukazuje na rizik trećih strana u lancu snabdevanja.</p>
+<p><small><a href="https://therecord.media/tsmc-confirms-employee-data-breach-cloud-provider">The Record</a></small></p>
+<h3>Ransomware napad na beloruski ActiveCloud prekinuo poslovanje danima</h3>
+<p>Hakeri su kompromitovali sisteme ActiveCloud-a i enkriptovali delove cloud infrastrukture, zbog čega korisnici danima nisu mogli da pristupe ključnim servisima. Preporučuje se provera backup-a i izolacija zavisnih servisa.</p>
+<p><small><a href="https://therecord.media/belarus-cloud-provider-activecloud-ransomware-attack">The Record</a></small></p>
+<h3>Gootloader korišćen u najmanje 44 ransomware napada, šteta 29 miliona dolara</h3>
+<p>Američko ministarstvo pravde saopštilo je da je Gootloader od 2018. korišćen u najmanje 44 ransomware napada sa ukupnom štetom od oko 29 miliona dolara. Objava je deo međunarodne anti-malware operacije.</p>
+<p><small><a href="https://therecord.media/gootloader-ransomware-doj-details">The Record</a></small></p>
+<h3>Linux 7.5 dobija hwpoison-panic alat za namerno rušenje sistema</h3>
+<p>Novi alat očekuje se u Linux 7.5 kernelu i služi za testiranje ponašanja kernela pri namernom izazivanju panike. Namenjen je testiranju i dijagnostici, ne produkcijskoj upotrebi.</p>
+<p><small><a href="https://www.phoronix.com/news/Linux-7.5-hwpoison-panic">Phoronix</a></small></p>
+<h3>XRAID: declustered parity RAID za zoned XFS</h3>
+<p>Christoph Hellwig objavio je prvo javno izdanje XRAID-a, declustered parity RAID implementacije integrisane u XFS. Cilj je parity RAID na zoned uređajima poput SMR diskova i brža RAID implementacija bez problema sa integritetom podataka.</p>
+<p><small><a href="https://lwn.net/Articles/1107473/">LWN</a></small></p>
+<h3>Project Zero objavio ažuriranu politiku disclosure-a za 2026</h3>
+<p>Google Project Zero zadržava model 90+30 dana za prijavu ranjivosti, uz izmene politike objavljene za 2026. Promene utiču na rokove koje vendori imaju za zakrpe i objavljivanje detalja.</p>
+<p><small><a href="https://projectzero.google/2026/11/disclosure-policy.html">Project Zero</a></small></p>
+<h3>Bezbednosna ažuriranja: kernel, nginx, nodejs, grafana i drugi</h3>
+<p>AlmaLinux je izdao bezbednosna ažuriranja za kernel, kernel-rt, nginx 1.24, nodejs 22/24, grafana, firefox, gcc, qt5-qtbase i druge pakete. Preporučuje se primena ažuriranja na pogođenim sistemima.</p>
+<p><small><a href="https://lwn.net/Articles/1107472/">LWN</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 13.11. u 15:21 (6 vesti)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261113-1521</link><guid isPermaLink="false">tech-20261113-1521</guid><pubDate>Fri, 13 Nov 2026 14:21:07 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>Microsoft: novembarsko bezbednosno ažuriranje kvari štampanje</h3>
+<p>Microsoft je upozorio da novembarsko bezbednosno ažuriranje iz 2026. može pokvariti štampanje dokumenata sa složenim formatiranjem. Pogođeni su Windows korisnici koji primenjuju ove zakrpe; preporučuje se testiranje štampanja pre masovnog uvođenja.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/">BleepingComputer</a></small></p>
+<h3>Nemački Bundeswehr prizemljio dronove Quantum Systems zbog malicioznog ažuriranja</h3>
+<p>Bundeswehr je preventivno prizemljio dronove kompanije Quantum Systems nakon što je maliciozno ažuriranje navodno stiglo do vojnih servera. Letovi su nakon provere nastavljeni; incident ukazuje na rizik lanca snabdevanja softverom za vojne bespilotne sisteme.</p>
+<p><small><a href="https://www.theregister.com/security/2026/11/13/quantum-systems-drones-back-in-the-air-after-malware-scare/5309658">The Register Security</a></small></p>
+<h3>Rekordan broj sajber incidenata prijavljen britanskom regulatoru za privatnost</h3>
+<p>Britanske organizacije su ove godine prijavile rekordan broj sajber incidenata regulatoru za zaštitu podataka. Porast napada pripisuje se iznudama podataka i veštačkoj inteligenciji.</p>
+<p><small><a href="https://therecord.media/record-number-of-cyber-incidents-reported-to-uk-regulator">The Record</a></small></p>
+<h3>XRAID javno objavljen kao nova RAID implementacija za XFS</h3>
+<p>Christoph Hellwig objavio je prvo javno izdanje XRAID-a, declustered parity RAID implementacije integrisane u XFS fajl sistem. Namenjen je RAID konfiguracijama za zoned XFS okruženja.</p>
+<p><small><a href="https://www.phoronix.com/news/XRAID-XFS-RAID">Phoronix</a></small></p>
+<h3>NVIDIA objavila rad na upstreamingu open-source vGPU drajvera preko Nova</h3>
+<p>NVIDIA je istakla rad na upstreamingu svog open-source vGPU drajvera izgrađenog na Rust drajveru Nova. Nova će imati važnu ulogu u budućem zvaničnom NVIDIA Linux drajver steku.</p>
+<p><small><a href="https://www.phoronix.com/news/NVIDIA-Upstream-vGPU-Nova">Phoronix</a></small></p>
+<h3>Linux 7.5 dobija drajver za novi Glanda GPU</h3>
+<p>U drm-misc-next pull requestu za Linux 7.5 nalazi se uvođenje novog GlandaGPU drajvera. Materijal se queue-uje u DRM-Next do merge window-a krajem decembra.</p>
+<p><small><a href="https://www.phoronix.com/news/Linux-7.5-GlandaGPU-Driver">Phoronix</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 13.11. u 12:07 (9 vesti)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261113-1207</link><guid isPermaLink="false">tech-20261113-1207</guid><pubDate>Fri, 13 Nov 2026 11:07:47 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>Check Point zero-day iskorišćen za root pristup</h3>
+<p>Check Point je izdao hitne hotfix-e za visoko rizičnu ranjivost koju napadači aktivno iskorišćavaju od kraja oktobra za sticanje root privilegija i perzistenciju na ugroženim uređajima. Preporučuje se što pre primeniti hotfix na sve Check Point gateway i management uređaje.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/">BleepingComputer</a></small></p>
+<h3>354 hapšenja u akciji protiv dark web tržišta</h3>
+<p>U zajedničkoj međunarodnoj operaciji uhapšeno je 354 osumnjičenih, prodavaca i kupaca na dark web tržištima Archetyp, Nemesis, Tor2Door, Bohemia i Kingdom. Akcija je deo šireg pritiska na kriminalnu infrastrukturu dark weba.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/">BleepingComputer</a></small></p>
+<h3>Windows aktivacija pada nakon novembarskih zakrpa</h3>
+<p>Microsoft je potvrdio da novembarske Patch Tuesday bezbednosne zakrpe izazivaju greške u aktivaciji i licenciranju Windowsa sa kodom 0x80041008. Administratori treba da odlože primenu ili pripreme workaround dok Microsoft ne objavi ispravku.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/">BleepingComputer</a></small></p>
+<h3>Kineski APT koristi SS7 i Diameter napade za špijunažu</h3>
+<p>Risky Bulletin izveštava da kineska APT grupa koristi napade na SS7 i Diameter protokole za nadzor ciljeva. U istom pregledu: sajber napad oborio poljsku vladinu platformu, najveća brazilska luka pogođena napadom, a Europol razbio Gootloader, CastleRAT i StealC.</p>
+<p><small><a href="https://news.risky.biz/risky-bulletin-chinese-apt-uses-ss7-diameter-attacks-to-spy-on-targets/">Risky Bulletin</a></small></p>
+<h3>Macfinger ClickFix kampanja deli DownTheDRAIN infostealer za macOS</h3>
+<p>SANS ISC opisuje ClickFix kampanju pod nazivom Macfinger koja na macOS sisteme isporučuje DownTheDRAIN infostealer. Korisnici macOS-a treba da budu oprezni sa lažnim uputstvima za rešavanje problema koja vode ka izvršavanju zlonamernih komandi.</p>
+<p><small><a href="https://isc.sans.edu/diary/rss/33518">SANS ISC</a></small></p>
+<h3>Britanski nadzor traži odgovornost zbog neovlašćenog pristupa medicinskim podacima</h3>
+<p>Britanski watchdog zahteva uveravanja od oko 200 rukovodilaca nakon što je osoblje prijavljeno više od 300 puta ove godine zbog neovlašćenog pregledanja pacijentskih dosijea. Slučaj ukazuje na sistemske probleme u kontroli pristupa medicinskim evidencijama.</p>
+<p><small><a href="https://www.theregister.com/security/2026/11/13/crackdown-on-uk-medical-record-snooping-after-staff-reported-sneaking-300-times-this-year/5309421">The Register Security</a></small></p>
+<h3>NATO povukao savet o ruskoj taxi aplikaciji za učešće na konferenciji</h3>
+<p>NATO je izdao, a zatim povukao uputstvo da učesnici konferencije odbrambene industrije koriste rusku Yandex Go aplikaciju za prevoz do mesta održavanja, uprkos dugogodišnjim brigama o pristupu Kremlja podacima aplikacije. Incident pokazuje rizik od korišćenja stranih servisa u osetljivim kontekstima.</p>
+<p><small><a href="https://therecord.media/nato-issues-and-withdraws-guidance-over-russian-taxi-app">The Record</a></small></p>
+<h3>Britanski nadzor upozorava na rizike prepoznavanja lica</h3>
+<p>Britanski policijski watchdog objavio je izveštaj koji upozorava da upotreba prepoznavanja lica nosi rizik od pogrešnih hapšenja zbog neujednačenog upravljanja i nerazumevanja ograničenja tehnologije među policajcima. Izveštaj poziva na promene u praksi i nadzoru.</p>
+<p><small><a href="https://www.theregister.com/security/2026/11/13/brit-police-watchdog-says-cops-use-of-facial-recog-risks-wrongful-arrests/5309379">The Register Security</a></small></p>
+<h3>Ranjivost tipa konfuzije u PostgreSQL dovela do RCE</h3>
+<p>Istraživač je opisao kako je 22 godine staru primitivu tipa konfuzije u PostgreSQL-u (CVE-2026-6460) pretvorio u izvršavanje proizvoljnog koda. Nalaz je relevantan za administratore baza koji još nisu primenili zakrpe.</p>
+<p><small><a href="https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460/">Lobsters</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 13.11. u 02:53 (5 vesti)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261113-0253</link><guid isPermaLink="false">tech-20261113-0253</guid><pubDate>Fri, 13 Nov 2026 01:53:21 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>SCKit crv-napad na MSP-ove preko ScreenConnect-a</h3>
+<p>Novi crvoliki malver SCKit korišćen je u napadima na managed service providere (MSP) preko ScreenConnect-a, sa sposobnošću da se širi sa zaraženih korisničkih uređaja na računare MSP tehničara i kompromituje dodatne mreže. MSP-ovi i korisnici ScreenConnect-a treba da provere integritet instalacija i ograniče pristup.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/">BleepingComputer</a></small></p>
+<h3>Kompromitovano 4.800 GitHub naloga u kampanji wfx-loot</h3>
+<p>Kampanja &#x27;wfx-loot&#x27; koristila je 4.837 kompromitovanih GitHub naloga za proveru 61.764 repozitorijuma, otvaranje pull request-ova i ubacivanje malvera za krađu tajni. Pogođeni su vlasnici repozitorijuma i organizacije; preporučuje se revizija pull request-ova, rotacija cloud kredencijala i uključivanje MFA.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/">BleepingComputer</a></small></p>
+<h3>DOJ zaplenio 1,2 milijarde dolara iz Binance krađe, uklonjen &#x27;FaceStealer&#x27;</h3>
+<p>Ministarstvo pravde SAD i FBI objavili su dve akcije protiv kripto-krađa povezanih sa Severnom Korejom: zaplenu 1,2 milijarde dolara iz Binance krađe i uklanjanje alata &#x27;FaceStealer&#x27;. Relevantno za organizacije koje prate sankcije i pretnje od DPRK grupa.</p>
+<p><small><a href="https://therecord.media/stolen-binance-crypto-recovered-doj-facestealer-disrupted">The Record</a></small></p>
+<h3>OpenAI predstavio bezbednosne proizvode, tužba neprofitnih organizacija</h3>
+<p>OpenAI je lansirao bezbednosne proizvode uz poruku organizacijama da su ugrožene ako ih ne koriste, dok grupa neprofitnih organizacija tuži AI gigante zbog AI-pokretanih sajber napada. Vest je relevantna zbog pravnog i bezbednosnog konteksta, ali sadrži i marketinški element.</p>
+<p><small><a href="https://www.theregister.com/security/2026/11/12/openai-launches-security-products-tells-orgs-theyre-doomed-if-they-dont-use-them/5309500">The Register Security</a></small></p>
+<h3>OpenAI Codex otkrio i popravio skoro 20 godina star bug u Radeon Linux drajveru</h3>
+<p>U novoj seriji AMD kernel grafičkih zakrpa za Linux 7.5 merge window nalazi se popravka starog bug-a u ATI/AMD Radeon R600 drajveru, koju je pomogao da se otkrije OpenAI Codex. Relevantno za korisnike starijeg Radeon hardvera na Linuxu.</p>
+<p><small><a href="https://www.phoronix.com/news/Codex-R600-UVD-FIx-Linux-7.5">Phoronix</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 12.11. u 21:21 (6 vesti)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261112-2121</link><guid isPermaLink="false">tech-20261112-2121</guid><pubDate>Thu, 12 Nov 2026 20:21:10 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>Microsoft 365 masovni ispad: Outlook, Teams i Copilot nedostupni širom sveta</h3>
+<p>Microsoft istražuje ispad koji pogađa više Microsoft 365 servisa, uključujući Outlook, Teams i Copilot, a korisnici širom sveta prijavljuju probleme sa povezivanjem. Pogođeni su svi koji koriste ove cloud servise; pratiti status stranicu Microsofta za oporavak.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/">BleepingComputer</a></small></p>
+<h3>Apache HTTP Server: kritična RCE ranjivost u HTTP/2 modulu</h3>
+<p>Kritična ranjivost u HTTP/2 modulu Apache HTTP Servera omogućava neautentifikovanom napadaču remote code execution. Pogađa sve instalacije sa uključenim HTTP/2; potrebno je što pre primeniti zakrpu na podržanu verziju.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/">BleepingComputer</a></small></p>
+<h3>N-able N-central zero-day &quot;4EverAble2Shell&quot; aktivno iskorišćen</h3>
+<p>Napadači aktivno iskorišćavaju novi zero-day u N-able N-centralu za kompromitovanje servera i instalaciju kripto majnera; prijavljen je najmanje 21 pogođen sistem, uključujući 19 sa najnovijim bezbednosnim ažuriranjem. Administratori treba da primene mitigacije i provere sisteme na kompromitaciju.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/">BleepingComputer</a></small></p>
+<h3>Maersk: sajber incident pogodio legacy sistem</h3>
+<p>Brodska kompanija Maersk potvrdila je da je nedavni sajber incident pogodio jedan legacy sistem. Događaj je deo niza napada na luke i brodarske organizacije, uključujući ransomware na najveću luku u Brazilu nedelju ranije.</p>
+<p><small><a href="https://therecord.media/shipping-giant-maersk-says-recent-incident-affected-legacy-system">The Record</a></small></p>
+<h3>BrickLink offline skoro nedelju dana zbog &quot;neobične aktivnosti&quot;</h3>
+<p>Lego marketplace BrickLink je van funkcije skoro nedelju dana nakon što je kompanija prijavila &quot;neobičnu aktivnost&quot;, bez potvrđenog uzroka. Korisnici zahtevaju objašnjenje; incident se prati kao mogući bezbednosni događaj.</p>
+<p><small><a href="https://www.theregister.com/security/2026/11/12/lego-marketplace-bricklink-in-pieces-after-unusual-activity-takes-it-offline-for-almost-a-week/5309425">The Register Security</a></small></p>
+<h3>Rust 1.100.0: stabilizovan &quot;never&quot; tip i delovi Allocator API-ja</h3>
+<p>Objavljena je verzija Rust 1.100.0 sa stabilizacijom never tipa, ključnih delova Allocator API-ja i prijavom nekorišćenih zavisnosti u Cargo-u. Bitna promena za developere koji prate stabilne verzije jezika.</p>
+<p><small><a href="https://lwn.net/Articles/1107187/">LWN</a> · <a href="https://www.phoronix.com/news/Rust-1.100-Released">Phoronix</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 12.11. u 18:22 (15 vesti)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261112-1822</link><guid isPermaLink="false">tech-20261112-1822</guid><pubDate>Thu, 12 Nov 2026 17:22:09 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>NVIDIA objavila NvRoot i ForgePtr ranjivosti u Linux drajveru, sledi još 25</h3>
+<p>Iskinut embargo sa prve dve od 25 novih bezbednosnih ranjivosti NVIDIA grafičkog drajvera za Linux; ForgePtr i NvRoot su posebno opasne za korisnike koji iznajmljuju GPU delove u cloudu. Preporučuje se hitno ažuriranje NVIDIA drajvera i provera izolacije GPU resursa.</p>
+<p><small><a href="https://www.phoronix.com/news/NVIDIA-NvRoot-ForgePtr">Phoronix</a></small></p>
+<h3>PostgreSQL izdao zakrpe za 52 bezbednosna problema</h3>
+<p>Objavljena su izdanja PostgreSQL 18.7, 17.12, 16.16, 15.20, 14.25 i 19 RC2 koja ispravljaju 52 nove bezbednosne ranjivosti i preko 140 bagova. Administratori baza treba da primene ažuriranja što pre.</p>
+<p><small><a href="https://www.phoronix.com/news/PostgreSQL-52-CVEs">Phoronix</a></small></p>
+<h3>Nova Windows SignDrop zero-day ranjivost daje SYSTEM privilegije</h3>
+<p>Istraživač Abdelhamid Naceri objavio je exploit za novu Windows zero-day ranjivost SignDrop koja omogućava sticanje SYSTEM privilegija. Nema zvanične zakrpe; preporučuje se praćenje Microsoftovih saopštenja i ograničavanje izlaganja.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/">BleepingComputer</a></small></p>
+<h3>Napadi zloupotrebljavaju ScreenConnect plugin ranjivost na stotinama računara</h3>
+<p>ConnectWise istražuje proboje kod skoro 50 organizacija nakon što su istraživači otkrili zloupotrebu ranjivosti u third-party plugin-u ScreenConnect-a; kompanija je onemogućila ekstenzije u 400 okruženja. Proveriti ScreenConnect instalacije i ukloniti nepotrebne ekstenzije.</p>
+<p><small><a href="https://therecord.media/connectwise-screenconnect-breaches-third-party-tool">The Record</a> · <a href="https://www.theregister.com/security/2026/11/12/hackers-exploiting-screenconnect-plugin-flaw-to-spread-malware-across-hundreds-of-pcs/5309361">The Register Security</a></small></p>
+<h3>Europol razbio infrastrukturu Gootloader, CastleRAT i StealC malvera</h3>
+<p>Europol i policije devet zemalja zaplenili su stotine servera i domena koje su koristile Gootloader, CastleRAT i StealC malware operacije. Akcija je usmerena na ključnu distribucionu infrastrukturu ovih pretnji.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/">BleepingComputer</a></small></p>
+<h3>Evropske vlasti drugi put ove godine ugasile StealC malware servere</h3>
+<p>Nemačke vlasti su uz pomoć FBI-ja i holandske policije locirale obnovljenu mrežu kod bulletproof hosting provajdera Virtualine i zaplenile je. Ovo je drugi udar na StealC infrastrukturu u 2026.</p>
+<p><small><a href="https://therecord.media/european-authorities-take-down-stealic-malware-second-time">The Record</a></small></p>
+<h3>Rumunija zaustavila ruski sajber napad na vladine mejlove</h3>
+<p>Rumunska obaveštajna služba saopštila je da je zaustavila špijunsku kampanju hakera povezanih sa ruskom državom pre nego što su eksfiltrisali osetljive podatke. Incident je potvrđen kao državno sponzorisana operacija.</p>
+<p><small><a href="https://therecord.media/romania-russia-cyberattack-emails">The Record</a></small></p>
+<h3>Apify rotirao API tokene i resetovao 2FA nakon proboja</h3>
+<p>Apify je nakon neovlašćenog pristupa internim sistemima rotirao kritične interne tajne i opozvao neke third-party OAuth konekcije. Korisnici treba da resetuju lozinke i 2FA gde je primenljivo.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/">BleepingComputer</a></small></p>
+<h3>GPUStack authentication bypass (CVE-2026-102895) aktivno eksploatisan</h3>
+<p>Ranjivost omogućava trivijalno zaobilaženje autentifikacije u GPUStack-u, open-source alatu za upravljanje GPU klasterima za AI opterećenja. Pogođene su sve verzije pre 2.2.0; preporučuje se nadogradnja na 2.2.0 ili noviju.</p>
+<p><small><a href="https://isc.sans.edu/diary/rss/33514">SANS ISC</a></small></p>
+<h3>Microsoft Exchange Server 2016 i 2019 ušli u eru trajne ranjivosti</h3>
+<p>Exchange Server 2016 i 2019 više ne dobijaju bezbednosne zakrpe i ostaju trajno ranjivi. Administratori treba da migriraju na podržane verzije ili Exchange Online bez odlaganja.</p>
+<p><small><a href="https://www.theregister.com/saas/2026/11/12/microsoft-exchange-server-2016-and-2019-enter-their-permanently-vulnerable-era/5309401">The Register Security</a></small></p>
+<h3>Microsoft potvrdio da Windows ažuriranja od oktobra kvare performanse SQL Servera</h3>
+<p>Microsoft je priznao da Windows zakrpe objavljene od oktobarskog Patch Tuesday-a izazivaju probleme sa performansama i stabilnošću SQL Servera. Preporučuje se praćenje Microsoftovih uputstava i testiranje zakrpa pre primene.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/">BleepingComputer</a></small></p>
+<h3>Hakeri povezani sa Kazahstanom koristili AI agenta za špijunažu u Centralnoj Aziji</h3>
+<p>Istraživanje opisuje grupu povezanu sa Kazahstanom koja je koristila AI agenta za špijunažu nad vladama Centralne Azije, krađu dokumenata i infiltraciju u kritičnu infrastrukturu. Nalaz ukazuje na konkretnu primenu AI u ofanzivnim operacijama.</p>
+<p><small><a href="https://therecord.media/kazakhstan-hackers-central-asia">The Record</a></small></p>
+<h3>VulnCheck: Project Glasswing prijavljuje 37.966 nalaza, samo 217 ispravljeno</h3>
+<p>Analiza VulnCheck-a pokazuje da je od 37.966 nalaza Anthropic-ovog Project Glasswing-a javno objavljeno samo 19,4%, a ispravljeno svega 217. Nalaz dovodi u pitanje praktičnu vrednost ovog programa za održavaoce.</p>
+<p><small><a href="https://lwn.net/Articles/1107173/">LWN</a></small></p>
+<h3>Policija koristi Webloc za lociranje ljudi preko podataka iz aplikacija</h3>
+<p>Penlink-ov Webloc prikuplja podatke o lokaciji sa telefona preko popularnih weather, gaming, email i verskih aplikacija i prodaje se policiji. Otkriće ukazuje na širok vektor nadzora bez znanja korisnika.</p>
+<p><small><a href="https://www.schneier.com/blog/archives/2026/11/another-way-police-are-locating-people-from-their-smartphones.html">Schneier</a></small></p>
+<h3>Linux 7.5 poboljšava podršku za stare ASUS Transformer uređaje</h3>
+<p>Linux kernel 7.5, očekivan 2027. godine, donosi poboljšanja za desetak godina stare ASUS Transformer hibridne laptopove i tablete sa NVIDIA Tegra ili Intel Atom SoC-ovima.</p>
+<p><small><a href="https://www.phoronix.com/news/Linux-7.5-ASUS-Transformer">Phoronix</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 12.11. u 12:21 (4 vesti)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261112-1221</link><guid isPermaLink="false">tech-20261112-1221</guid><pubDate>Thu, 12 Nov 2026 11:21:05 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>GSocket zloupotrebljen za trajni pristup Linux serverima</h3>
+<p>Više napadačkih grupa koristi legitimni open-source alat GSocket za održavanje pristupa kompromitovanim Linux serverima, čak i nakon što se zakrpe ranjivosti korišćene za inicijalni upad. Administratori treba da provere prisustvo GSocket procesa i mrežnih konekcija na serverima.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/">BleepingComputer</a></small></p>
+<h3>Microsoft potvrdio probleme sa instalacijom novembarskih bezbednosnih zakrpa</h3>
+<p>Novembarske 2026. bezbednosne zakrpe za Windows 11 ne uspevaju da se instaliraju na sistemima sa oktobarskim preview ažuriranjem. Microsoft je potvrdio problem; pogođeni korisnici treba da prate zvanična uputstva pre ponovnog pokušaja.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/">BleepingComputer</a></small></p>
+<h3>Intel Xe drajver priprema SR-IOV provisioning za vGPU profile</h3>
+<p>U predstojećem ciklusu Linux 7.5 kernela Intel Xe grafički drajver uvodi SR-IOV provisioning za vGPU profile, što je relevantno za virtuelizaciju grafike na Intel GPU-ovima.</p>
+<p><small><a href="https://www.phoronix.com/news/Linux-7.5-Intel-Xe-vGPU-Profile">Phoronix</a></small></p>
+<h3>Linux 7.5 donosi HWMON podršku za AMD Pensando NIC-ove</h3>
+<p>Novi Ionic HWMON drajver u Linux 7.5 omogućava praćenje temperature, napona i potrošnje za AMD Pensando mrežnu opremu.</p>
+<p><small><a href="https://www.phoronix.com/news/AMD-Pensando-HWMON">Phoronix</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 12.11. u 06:21 (6 vesti)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261112-0621</link><guid isPermaLink="false">tech-20261112-0621</guid><pubDate>Thu, 12 Nov 2026 05:21:06 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>Aktivni ScreenConnect napadi kompromituju MSP-ove</h3>
+<p>ConnectWise istražuje aktivnu malicioznu kampanju koja preko kompromitovanih ScreenConnect okruženja instalira lažne klijente za daljinski pristup na uređaje korisnika. Pogođeni su managed service provideri i desetine organizacija; potrebno je proveriti ScreenConnect instance i ukloniti neovlašćene klijente.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/">BleepingComputer</a></small></p>
+<h3>eMudhra opozvala još 8 CA sertifikata zbog rukovanja privatnim ključevima</h3>
+<p>Nakon incidenta sa bezbednošću sertifikata, eMudhra je opozvala osam dodatnih intermediate CA sertifikata jer je istraga utvrdila nepravilno rukovanje privatnim ključevima tokom generisanja sertifikata. CA navodi da je problem nastao zbog neispravne skripte i nedostatka hardvera; korisnici treba da provere da li njihovi sertifikati potiču od opozvanih CA.</p>
+<p><small><a href="https://www.theregister.com/security/2026/11/12/disgraced-former-ca-emudhra-blames-buggy-script-for-hopelessly-weak-certificates/5309244">The Register Security</a> · <a href="https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/">BleepingComputer</a> · <a href="https://emudhra.com/en/post/certificate-security-incident">Lobsters</a></small></p>
+<h3>Notion: curenje AI chat transkripata preko Fireworks AI</h3>
+<p>Notion je objavio da je bezbednosni incident kod njegovog AI provajdera Fireworks AI eksponirao Notion AI chat transkripte u malom broju radnih prostora. Pogođeni korisnici treba da pretpostave da su njihovi AI razgovori mogli biti izloženi.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/">BleepingComputer</a></small></p>
+<h3>Baker Tilly obaveštava klijente o curenju podataka kod trećeg provajdera</h3>
+<p>Baker Tilly Advisory Group obaveštava klijente da je curenje podataka kod trećeg provajdera kompromitovalo lične podatke klijenata i njihovih izdržavanih lica. Pogođeni treba da prate uputstva firme o zaštiti podataka.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/">BleepingComputer</a></small></p>
+<h3>Novembarski Patch Tuesday: preko 1.000 bagova, jedan aktivno iskorišćen</h3>
+<p>Microsoftov novembarski Patch Tuesday sadrži više od 1.000 ispravki, uključujući ranjivost koja je već pod aktivnim napadom. Administratori treba što pre da primene zakrpe, posebno za aktivno iskorišćenu ranjivost.</p>
+<p><small><a href="https://www.theregister.com/security/2026/11/10/november-patch-tuesday-boasts-over-1000-bugs-one-already-under-attack/5308946">The Register Security</a></small></p>
+<h3>Krebs: ko vodi Qilin ransomware grupu</h3>
+<p>Istraživanje identifikuje operativne propuste administratora Qilin ransomware affiliate programa, koji je u tri meseca prijavio najmanje 365 žrtava. Nalaz konkretno opisuje pozadinu jedne od najaktivnijih ransomware grupa.</p>
+<p><small><a href="https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/">Krebs on Security</a></small></p>]]></description></item>
+</channel></rss>
