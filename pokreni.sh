@@ -5,4 +5,4 @@ cd "$(dirname "$0")"
 DEEPSEEK_API_KEY=$(grep -oP '^\s*(export\s+)?DEEPSEEK_API_(KEY|TOKEN)\s*=\s*["'\'']?\K[^"'\''\s]+' ~/.claude-kp.env | head -1)
 export DEEPSEEK_API_KEY
 docker build -q -t boox-vesti . >/dev/null
-docker run --rm -u "$(id -u):$(id -g)" -v "$PWD:/app" -e DEEPSEEK_API_KEY boox-vesti python vesti.py "$@"
+docker run --rm --network host -u "$(id -u):$(id -g)" -v "$PWD:/app" -e DEEPSEEK_API_KEY boox-vesti python vesti.py "$@"

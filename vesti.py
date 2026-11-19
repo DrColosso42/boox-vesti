@@ -63,12 +63,23 @@ Izbaci: saopštenja firmi o novim proizvodima ("X launches Y"), marketing, webin
 savete i tutorijale bez vesti, nagađanja, prognoze i ankete, AI hype bez konkretnog nalaza, benchmark-e bez značaja,
 sponzorisane tekstove i nedeljne preglede.
 Isti događaj iz više izvora = jedna stavka. Poređaj po važnosti, najviše 15.
-Bolje manje nego slab sadržaj: ako ništa nije vredno, vrati prazan niz.
+
+Odvojeno izdvoji članke za čitanje iz inženjerskih blogova: tekstove sa konkretnom tehnikom, merenjem ili nalazom
+koji pomažu u svakodnevnom radu na velikom sajtu (PHP, MySQL, nginx/OpenResty, HAProxy, Linux):
+performanse sajta (Core Web Vitals, keširanje, HTTP, CDN), bezbednost web aplikacija (XSS, CSRF, zaglavlja, autentikacija),
+performanse i observability Linuxa, baze podataka, reverse proxy, pouzdanost i postmortemi.
+Ovde izbaci: najave proizvoda, priče o klijentima, AI tekstove bez konkretne tehnike, najave događaja, početničke
+tutorijale i preglede linkova. Najviše 8. Isti tekst ne stavljaj i u vesti i u članke.
+
+Bolje manje nego slab sadržaj: ako ništa nije vredno, vrati prazne nizove.
 Piši na srpskom jeziku, latinicom, sažeto i činjenično. Nazive softvera, firmi i ustanova, CVE oznake i tehničke termine ostavi u originalu.
 Vrati JSON:
 {"dogadjaji": [{"naslov": "kratak naslov",
                 "sazetak": "1-3 rečenice: šta se desilo, koga pogađa, šta uraditi ako je primenljivo",
-                "izvori": [indeksi vesti iz liste]}]}"""
+                "izvori": [indeksi vesti iz liste]}],
+ "clanci": [{"naslov": "kratak naslov",
+             "sazetak": "2-3 rečenice: glavna ideja ili tehnika i šta od toga može da se primeni",
+             "izvori": [indeks članka]}]}"""
 
 # vrsta stavke -> sekcija u sources.yaml, prompt, naslov, najviše stavki, množina (1 / ostalo), prefiks id-a
 DIGESTI = {
@@ -173,21 +184,27 @@ def napravi_digest(client, vrsta, vesti, sad, url):
     o = pitaj(client, sistem, lista, max_tokens=8000)
     if not o or "dogadjaji" not in o:
         return None
-    if not o["dogadjaji"]:
+    dogadjaji, clanci = o["dogadjaji"][:max_n], (o.get("clanci") or [])[:8]
+    if not dogadjaji and not clanci:
         return {} if vrsta == "tech" else None
-    delovi = []
-    for d in o["dogadjaji"][:max_n]:
+
+    def stavka(d):
         izv = {}     # po jedan link po izvoru, da ne piše "BBC · BBC · BBC"
         for i in d.get("izvori", []):
             if isinstance(i, int) and 0 <= i < len(vesti):
                 izv.setdefault(vesti[i]["izvor"], vesti[i]["link"])
         linkovi = " · ".join(f'<a href="{esc(link)}">{esc(ime)}</a>' for ime, link in izv.items())
-        delovi.append(f"<h3>{esc(d.get('naslov'))}</h3>\n<p>{esc(d.get('sazetak'))}</p>\n<p><small>{linkovi}</small></p>")
+        return f"<h3>{esc(d.get('naslov'))}</h3>\n<p>{esc(d.get('sazetak'))}</p>\n<p><small>{linkovi}</small></p>"
+
+    delovi = [stavka(d) for d in dogadjaji]
+    if clanci:
+        delovi += ["<h2>Za čitanje</h2>"] + [stavka(d) for d in clanci]
     lokalno = sad.astimezone(BG)
     oznaka = f"{prefiks}-{lokalno:%Y%m%d-%H%M}"
-    n = len(delovi)
+    n = len(dogadjaji)
     rec = rec1 if n % 10 == 1 and n % 100 != 11 else rec_n
-    return {"id": oznaka, "vrsta": vrsta, "naslov": f"{naslov} {lokalno:%d.%m. u %H:%M} ({n} {rec})",
+    broj = f"{n} {rec}" + (f", {len(clanci)} za čitanje" if clanci else "")
+    return {"id": oznaka, "vrsta": vrsta, "naslov": f"{naslov} {lokalno:%d.%m. u %H:%M} ({broj})",
             "link": f"{url}/#{oznaka}", "autor": "", "izvor": "Digest", "kad": sad.isoformat(),
             "html": "\n".join(delovi)}
 

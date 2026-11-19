@@ -52,3 +52,30 @@ tech:
   - {ime: Phoronix, url: "https://www.phoronix.com/rss.php"}
   - {ime: Kubernetes blog, url: "https://kubernetes.io/feed.xml"}
   - {ime: Lobsters, url: "https://lobste.rs/t/security,linux,devops.rss"}
+  # Inženjerski blogovi -> sekcija "Za čitanje" (performanse sajta, web bezbednost, infra, baze)
+  - {ime: CSS Wizardry, url: "https://csswizardry.com/feed.xml"}
+  - {ime: web.dev, url: "https://web.dev/static/blog/feed.xml"}
+  - {ime: Chrome for Developers, url: "https://developer.chrome.com/static/blog/feed.xml"}
+  - {ime: Jake Archibald, url: "https://jakearchibald.com/posts.rss"}
+  - {ime: DebugBear, url: "https://www.debugbear.com/blog/rss.xml"}
+  - {ime: Cloudflare blog, url: "https://blog.cloudflare.com/rss/"}
+  - {ime: Marc Brooker, url: "https://brooker.co.za/blog/rss.xml"}
+  - {ime: Brendan Gregg, url: "https://www.brendangregg.com/blog/rss.xml"}
+  - {ime: Julia Evans, url: "https://jvns.ca/atom.xml"}
+  - {ime: Netflix Tech Blog, url: "https://netflixtechblog.com/feed"}
+  - {ime: GitHub Engineering, url: "https://github.blog/engineering/feed/"}
+  - {ime: Fly.io, url: "https://fly.io/blog/feed.xml"}
+  - {ime: Daniel Stenberg, url: "https://daniel.haxx.se/blog/feed/"}
+  - {ime: Dropbox Tech, url: "https://dropbox.tech/feed"}
+  - {ime: Percona, url: "https://www.percona.com/blog/feed/"}
+  - {ime: PlanetScale, url: "https://planetscale.com/blog/feed.atom"}
+  - {ime: NGINX, url: "https://blog.nginx.org/feed"}
+  - {ime: OpenResty, url: "https://blog.openresty.com/en/index.xml"}
+  - {ime: HAProxy, url: "https://www.haproxy.com/blog/feed"}
+  - {ime: PortSwigger Research, url: "https://portswigger.net/research/rss"}
+  - {ime: Scott Helme, url: "https://scotthelme.co.uk/rss/"}
+  - {ime: watchTowr Labs, url: "https://labs.watchtowr.com/rss/"}
+  - {ime: Trail of Bits, url: "https://blog.trailofbits.com/feed/"}
+  - {ime: Filippo Valsorda, url: "https://words.filippo.io/rss/"}
+  - {ime: Google Security Blog, url: "https://security.googleblog.com/feeds/posts/default"}
+  - {ime: PHP.Watch, url: "https://php.watch/feed/news.xml"}
