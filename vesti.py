@@ -62,6 +62,8 @@ SISTEM_TECH = """Dobijaš listu naslova iz izvora o bezbednosti, Linuxu i DevOps
 Izbaci: saopštenja firmi o novim proizvodima ("X launches Y"), marketing, webinare, popuste, liste tipa "top 10",
 savete i tutorijale bez vesti, nagađanja, prognoze i ankete, AI hype bez konkretnog nalaza, benchmark-e bez značaja,
 sponzorisane tekstove i nedeljne preglede.
+Izbaci i desktop i potrošačke teme koje se ne tiču servera: Windows feature i preview update-i, igre, grafički drajveri,
+Vulkan/GPU za igre, multimedija i hardver za krajnje korisnike, osim ako je u pitanju kritična bezbednosna zakrpa.
 Isti događaj iz više izvora = jedna stavka. Poređaj po važnosti, najviše 15.
 
 Odvojeno izdvoji članke za čitanje iz inženjerskih blogova: tekstove sa konkretnom tehnikom, merenjem ili nalazom
@@ -69,7 +71,9 @@ koji pomažu u svakodnevnom radu na velikom sajtu (PHP, MySQL, nginx/OpenResty, 
 performanse sajta (Core Web Vitals, keširanje, HTTP, CDN), bezbednost web aplikacija (XSS, CSRF, zaglavlja, autentikacija),
 performanse i observability Linuxa, baze podataka, reverse proxy, pouzdanost i postmortemi.
 Ovde izbaci: najave proizvoda, priče o klijentima, AI tekstove bez konkretne tehnike, najave događaja, početničke
-tutorijale i preglede linkova. Najviše 8. Isti tekst ne stavljaj i u vesti i u članke.
+tutorijale i preglede linkova. Release notes i "šta je novo u verziji X" nisu članci: važno izdanje ide u vesti,
+ostalo izbaci. Članak mora da objašnjava kako nešto radi, zašto je sporo ili ranjivo, ili šta je izmereno.
+Najviše 8. Isti tekst ne stavljaj i u vesti i u članke.
 
 Bolje manje nego slab sadržaj: ako ništa nije vredno, vrati prazne nizove.
 Piši na srpskom jeziku, latinicom, sažeto i činjenično. Nazive softvera, firmi i ustanova, CVE oznake i tehničke termine ostavi u originalu.
