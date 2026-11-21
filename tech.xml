@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Boox vesti: Bezbednost, Linux, DevOps</title><link>https://DrColosso42.github.io/boox-vesti/</link><description>Bezbednost, Linux, DevOps</description><language>sr</language><lastBuildDate>Sat, 21 Nov 2026 14:22:00 +0000</lastBuildDate><atom:link href="https://DrColosso42.github.io/boox-vesti/tech.xml" rel="self" type="application/rss+xml"/>
+<item><title>Sec/Linux/DevOps 21.11. u 15:21 (1 vest)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261121-1521</link><guid isPermaLink="false">tech-20261121-1521</guid><pubDate>Sat, 21 Nov 2026 14:21:08 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>Debian 13.8 sa više od 150 bezbednosnih zakrpa</h3>
+<p>Objavljen je Debian 13.8, novi ISO refresh za Debian 13 &quot;Trixie&quot;, sa preko 150 bezbednosnih ažuriranja i brojnim ispravkama grešaka. Preporučuje se ažuriranje postojećih instalacija i korišćenje novih ISO image-a za nove instalacije.</p>
+<p><small><a href="https://www.phoronix.com/news/Debian-13.8-Released">Phoronix</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 21.11. u 12:14 (2 vesti)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261121-1214</link><guid isPermaLink="false">tech-20261121-1214</guid><pubDate>Sat, 21 Nov 2026 11:14:33 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>FreeBSD 15.2 beta 3 i 17 bezbednosnih saveta</h3>
+<p>Objavljen je treći nedeljni beta FreeBSD 15.2 sa ispravkama grešaka i ažuriranim OpenZFS kodom, uz ispravke za 17 bezbednosnih saveta objavljenih te nedelje. Administratori FreeBSD sistema treba da pregledaju savete i primene zakrpe na postojeće instalacije.</p>
+<p><small><a href="https://www.phoronix.com/news/FreeBSD-15.2-Beta-3">Phoronix</a></small></p>
+<h3>GnuPG savet za GPGME (CVE-2026-129975)</h3>
+<p>Objavljen je bezbednosni savet za GPGME biblioteku vezan za GnuPG, označen kao CVE-2026-129975. Treba proveriti da li se GPGME koristi u aplikacijama i primeniti dostupnu ispravku.</p>
+<p><small><a href="https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html">Lobsters</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 21.11. u 03:23 (1 vest)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261121-0323</link><guid isPermaLink="false">tech-20261121-0323</guid><pubDate>Sat, 21 Nov 2026 02:23:34 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>Optužen CTO kompanije RansomwareHelp zbog prevare</h3>
+<p>FBI je optužio suosnivača i CTO kompanije ransomwarehelp.com za wire fraud nakon što je tajna operacija pokazala da firma nije vraćala podatke, već je plaćala napadače. Slučaj pogađa korisnike koji su plaćali za uslugu oporavka od ransomware-a.</p>
+<p><small><a href="https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/">Krebs on Security</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 21.11. u 00:21 (5 vesti)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261121-0021</link><guid isPermaLink="false">tech-20261121-0021</guid><pubDate>Fri, 20 Nov 2026 23:21:06 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>Kritična ranjivost u GnuPG GPGME pogađa mejl klijente i Flatpak</h3>
+<p>Werner Koch je objavio kritičnu bezbednosnu grešku u GPGME biblioteci (GnuPG Made Easy). Pogođeni su brojni korisnici GPGME-a, uključujući većinu mejl klijenata, XMPP klijenata, Flatpak i Samba. Potrebno je pratiti zakrpe i ažurirati pogođene pakete što pre.</p>
+<p><small><a href="https://www.phoronix.com/news/GnuPG-GPGME-Critical">Phoronix</a></small></p>
+<h3>Sajber incident u zakonodavnom telu Zapadne Virdžinije</h3>
+<p>Incident u IT sistemima zakonodavnog tela Zapadne Virdžinije počeo je u četvrtak i trajao i u petak. Prema izjavama, širenje na druge državne institucije nije potvrđeno. Detalji o obimu i podacima još nisu poznati.</p>
+<p><small><a href="https://therecord.media/west-virginia-legislature-cyberattack">The Record</a></small></p>
+<h3>Istraživanje pokazalo da se podaci u AI lancu snabdevanja ne zadržavaju privatno</h3>
+<p>Istraživač je ubacio dva miliona označenih &#x27;kanarinaca&#x27; (jedinstvenih praćenih tajni) u AI lanac snabdevanja. Rezultat je pokazao da podaci ne ostaju privatni, što ukazuje na rizik curenja osetljivih informacija kroz AI alate.</p>
+<p><small><a href="https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/">Ars Technica Security</a></small></p>
+<h3>Krađa podataka o Visa i Mastercard karticama korisna za phishing</h3>
+<p>Istraživači navode da ukradeni podaci uključuju informacije korisne za phishing, ali ne i finansijske detalje koji bi omogućili pražnjenje računa. Incident je relevantan za procenu rizika od socijalnog inženjeringa.</p>
+<p><small><a href="https://www.theregister.com/cyber-crime/2026/11/20/visa-mastercard-theft-included-info-useful-for-phishing-but-not-draining-bank-accounts-say-researchers/5311478">The Register Security</a></small></p>
+<h3>Libreboot ukinuo anti-AI politiku nakon mesec dana</h3>
+<p>Libreboot, downstream projekat Coreboot-a, ukinuo je politiku kojom je zabranjivao doprinose nastale uz pomoć AI/LLM alata, svega mesec dana nakon uvođenja. Sada su AI doprinosi dozvoljeni.</p>
+<p><small><a href="https://www.phoronix.com/news/Libreboot-Drops-AI-Policy">Phoronix</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 20.11. u 21:27 (11 vesti, 1 za čitanje)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261120-2127</link><guid isPermaLink="false">tech-20261120-2127</guid><pubDate>Fri, 20 Nov 2026 20:27:23 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>Cloudflare WAF štiti od ruby2shell (CVE-2026-132825) u Rails i Sinatra aplikacijama</h3>
+<p>Ranjivost ruby2shell omogućava neautentifikovanim napadačima da korumpiraju memoriju u podrazumevanim Rails i Sinatra aplikacijama. Cloudflare WAF blokira napade za sve korisnike, uključujući Free plan; preporučuje se hitan upgrade Ruby-ja, a WAF pokriva period do zakrpe.</p>
+<p><small><a href="https://blog.cloudflare.com/ruby2shell-waf-protection/">Cloudflare blog</a></small></p>
+<h3>phpAfterShell: kritična ranjivost u PHP session handler-u</h3>
+<p>phpAfterShell je kritična greška u podrazumevanom PHP session handler-u koja može dovesti do izvršavanja koda. Cloudflare WAF dodaje pravila za sve korisnike i za druge PHP greške ispravljene u istom izdanju; potrebno je ažurirati PHP.</p>
+<p><small><a href="https://blog.cloudflare.com/phpaftershell-waf-protection/">Cloudflare blog</a></small></p>
+<h3>Bell Canada: napadač uz pomoć AI agenata ukrao podatke enterprise korisnika</h3>
+<p>Bell Canada je potvrdio da je &#x27;agentic&#x27; pretnja probila sisteme 17. novembra 2026. i ukrala podatke enterprise korisnika, uključujući sistem za naručivanje i provisioning telekomunikacionih krugova. Incident pokazuje praktičnu upotrebu autonomnih AI agenata u napadima.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/">BleepingComputer</a></small></p>
+<h3>AI alat Cairn korišćen za pronalaženje zero-day ranjivosti i preuzimanje servera</h3>
+<p>Kineski napadači koristili su open-source AI penetration-testing framework Cairn za napad na dva univerziteta i medicinsku imaging aplikaciju, pritom pronašavši nepoznatu ranjivost. Amazonov CISO navodi da su agenti skoro ceo dan adaptirali napad bez ljudske kontrole.</p>
+<p><small><a href="https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day">The Record</a> · <a href="https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/">BleepingComputer</a> · <a href="https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382">The Register Security</a></small></p>
+<h3>Proboj kod dobavljača eksponirao podatke klijenata Chase, Visa i Mastercard</h3>
+<p>J.P. Morgan Chase je upozorio na curenje podataka nakon cyberattack-a na treću stranu, čime su izloženi lični podaci i marketing podaci klijenata. Pogođeni korisnici treba da prate obaveštenja banke i provere izložene podatke.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/">BleepingComputer</a></small></p>
+<h3>Više od 40 kreditnih unija pogođeno probojem kod dobavljača koji je ostao neprimećen šest nedelja</h3>
+<p>Irska Data Protection Commission primila je preko 40 prijava od kreditnih unija koje su koristile belfastsku firmu kao obrađivača podataka. Proboj je ostao neotkriven šest nedelja, što ukazuje na propuste u monitoringu dobavljača.</p>
+<p><small><a href="https://therecord.media/dozens-of-credit-unions-hit-by-supplier-breach">The Record</a></small></p>
+<h3>The Container Store obnovio sisteme posle cyberattack-a</h3>
+<p>The Container Store je nakon vikend cyber incidenta obnovio veb sajt i sisteme, saopštila je matična kompanija Neighborhood Intelligence. Incident je potvrđen kao cybersecurity slučaj sa uspešnim oporavkom.</p>
+<p><small><a href="https://therecord.media/container-store-restores-systems-cyberattack">The Record</a></small></p>
+<h3>NSA nastavlja normalan rad posle prekida interne mreže</h3>
+<p>NSA je obnovila normalne operacije nakon prekida interne mreže, dok pojedini objekti ostaju u &#x27;Code Orange&#x27; režimu sa odloženim otvaranjem i prijavljivanjem zaposlenih. Uzrok prekida nije detaljno objavljen.</p>
+<p><small><a href="https://therecord.media/nsa-resumes-normal-operations-following-internal-disruptions">The Record</a></small></p>
+<h3>Fedora priprema Incident Response Policy posle XZ Utils slučaja</h3>
+<p>Fedora Security SIG izradio je nacrt Incident Response Policy za poboljšanje toka i objavljivanja bezbednosnih incidenata. Inicijativa proizlazi iz propusta u komunikaciji tokom XZ Utils afere.</p>
+<p><small><a href="https://www.phoronix.com/news/Fedora-Incident-Response-Policy">Phoronix</a></small></p>
+<h3>Sud za tajne službe naterao UK vladu da prizna zahtev za Apple backdoor</h3>
+<p>Spy court je kritikovao britansku tajnost i naterao vladu da prizna postojanje zahteva za Apple backdoor, iako tačni zahtevi ostaju tajni. Odluka je relevantna za debatu o šifrovanju i obavezama provajdera.</p>
+<p><small><a href="https://www.theregister.com/security/2026/11/20/spy-court-blasts-uk-secrecy-forces-government-to-admit-apple-backdoor-demand/5311292">The Register Security</a></small></p>
+<h3>openSUSE Tumbleweed prelazi na Agama installer</h3>
+<p>openSUSE projekat priprema potpuni prelazak Tumbleweed-a na Agama installer, koji je već podrazumevan u Leap 16.0 i drugim varijantama. Promena menja tok instalacije i može uticati na automatizaciju provisioning-a.</p>
+<p><small><a href="https://lwn.net/Articles/1107830/">LWN</a></small></p>
+<h2>Za čitanje</h2>
+<h3>Petsem: kada je mrtvo bolje — odbrana u eri LLM napadača</h3>
+<p>Tekst na Fly.io blogu analizira kako LLM-pokretani napadači ubrzavaju istraživanje i eksploataciju, pomerajući balans ka napadačima. Koristan je kao okvir za razmišljanje o odbrambenim strategijama i ograničenjima automatizovanih napada.</p>
+<p><small><a href="https://fly.io/blog/petsem/">Fly.io</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 20.11. u 15:21 (3 vesti)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261120-1521</link><guid isPermaLink="false">tech-20261120-1521</guid><pubDate>Fri, 20 Nov 2026 14:21:06 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>N-able pretrpeo upad, veliki ispad Mail Assure i SpamExperts servisa</h3>
+<p>Napadači su kompromitovali jedan od N-able servera i izazvali globalni ispad Mail Assure i SpamExperts Hosted Cloud usluga. Pogođeni su korisnici filtriranja e-pošte; treba proveriti status usluga i integritet naloga.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/">BleepingComputer</a></small></p>
+<h3>Tribunal: britanska vlada ne može da sakrije naredbu za razbijanje enkripcije Apple-u</h3>
+<p>Sud je presudio da postojanje naredbe može biti javno, ali tačan sadržaj zahteva ostaje tajan. Odluka je relevantna za provajdere enkripcije i korisnike u UK.</p>
+<p><small><a href="https://www.theregister.com/security/2026/11/20/uk-government-cant-keep-its-encryption-busting-order-to-apple-a-secret-tribunal-rules/5311292">The Register Security</a></small></p>
+<h3>Bezbednosna ažuriranja: kernel, OpenJDK, MySQL, bind9 i drugi</h3>
+<p>AlmaLinux je izdao zakrpe za kernel, kernel-rt, java-17/21/25-openjdk, mysql8.4, bind9.18, grafana, freerdp i druge pakete. Treba primeniti ažuriranja na pogođenim sistemima.</p>
+<p><small><a href="https://lwn.net/Articles/1108811/">LWN</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 20.11. u 12:21 (6 vesti, 2 za čitanje)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261120-1221</link><guid isPermaLink="false">tech-20261120-1221</guid><pubDate>Fri, 20 Nov 2026 11:21:08 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>F5 objavio hitne zakrpe za kritične BIG-IP RCE ranjivosti</h3>
+<p>F5 je upozorio na pet kritičnih ranjivosti u BIG-IP proizvodima koje napadači mogu iskoristiti za remote code execution ili denial-of-service. Administratori treba što pre da primene hitne zakrpe na izložene BIG-IP uređaje.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/">BleepingComputer</a></small></p>
+<h3>Windows 11 preview update KB5132057 donosi 28 izmena</h3>
+<p>Microsoft je objavio novembarski preview update KB5132057 za Windows 11 sa 28 izmena, uključujući poboljšanja Windows Search, Windows Hello i Run dijaloga. Reč je o opcionom update-u koji će verovatno ući u sledeći Patch Tuesday.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132057-update-released-with-28-changes-and-fixes/">BleepingComputer</a></small></p>
+<h3>Windows 11 passkey bug prijavljuje grešku posle uspešne prijave</h3>
+<p>Korisnici Windows 11 verzija 25H2 i 26H2 pogođeni su bugom gde passkey prijava prikazuje lažnu grešku uprkos uspešnoj autentikaciji. Opcioni update ispravlja ovaj problem.</p>
+<p><small><a href="https://www.theregister.com/security/2026/11/20/windows-11-passkey-bug-cries-failure-after-successful-sign-in/5311263">The Register Security</a></small></p>
+<h3>FFmpeg 9.1 objavljen sa NVIDIA Optical Flow FRUC i APV Vulkan enkoderom</h3>
+<p>FFmpeg 9.1 je zvanično objavljen kao novo funkcionalno izdanje široko korišćene multimedijalne biblioteke. Donosi NVIDIA Optical Flow FRUC i APV Vulkan enkoder, što je relevantno za alate koji zavise od FFmpeg-a.</p>
+<p><small><a href="https://www.phoronix.com/news/FFmpeg-9.1-Released">Phoronix</a></small></p>
+<h3>Cloud Hypervisor 55 sa AArch64 nested virtualizacijom i do 990 ARM vCPU</h3>
+<p>Objavljen je Cloud Hypervisor 55.0, VMM pisan u Rust-u fokusiran na bezbednost i cloud. Novo izdanje donosi AArch64 nested virtualizaciju i podršku za do 990 ARM vCPU.</p>
+<p><small><a href="https://www.phoronix.com/news/Cloud-Hypervisor-55">Phoronix</a></small></p>
+<h3>Vulkan 1.4.369 uvodi AMD ekstenziju za ray-tracing performanse</h3>
+<p>Vulkan 1.4.369 donosi novu, eksperimentalnu AMD Vulkan API ekstenziju namenjenu poboljšanju ray-tracing performansi u modernim igrama. Ekstenzija je još u eksperimentalnoj fazi.</p>
+<p><small><a href="https://www.phoronix.com/news/Vulkan-AMDX-Ray-Tracing-Struct">Phoronix</a></small></p>
+<h2>Za čitanje</h2>
+<h3>NGINX Ingress Controller 5.8: ograničenja konekcija, auth zaglavlja i offline Helm instalacije</h3>
+<p>Novo izdanje uvodi ograničavanje broja istovremenih zahteva po klijentu, prosleđivanje korisničkih podataka iz auth servisa ka backend-ima i Helm instalaciju bez internet pristupa. Ograničenja konekcija i auth zaglavlja su korisne politike za zaštitu i kontrolu saobraćaja na velikim sajtovima.</p>
+<p><small><a href="https://blog.nginx.org/blog/nginx-ingress-controller-5-8-connection-limits-auth-response-headers-and-offline-helm-installs">NGINX</a></small></p>
+<h3>NGINX Gateway Fabric 2.9: API key autentikacija i snippets za TCP/UDP</h3>
+<p>API key autentikacija omogućava zaštitu rute tako da samo klijenti sa validnim ključem dođu do servisa, a obnovljeni TLS sertifikati sada stupaju na snagu bez reload-a NGINX-a. Snippets mogu da konfigurišu TCP i UDP saobraćaj, a TLS se može deliti po težinskim backend-ima.</p>
+<p><small><a href="https://blog.nginx.org/blog/nginx-gateway-fabric-2-9-api-key-authentication-availability-on-nutanix-kubernetes-platform-and-snippets-for-tcp-and-udp-traffic">NGINX</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 20.11. u 03:21 (4 vesti)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261120-0321</link><guid isPermaLink="false">tech-20261120-0321</guid><pubDate>Fri, 20 Nov 2026 02:21:15 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>VMware vCenter zero-day ranjivost aktivno iskorišćena od septembra</h3>
+<p>Broadcom je objavio zakrpe za kritičnu ranjivost zaobilaženja autentikacije u VMware vCenter Serveru, koju su hakeri povezani sa Kinom aktivno iskorišćavali kao zero-day od septembra 2026. Administratori treba odmah da primene dostupne zakrpe na vCenter instance.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/">BleepingComputer</a> · <a href="https://www.theregister.com/security/2026/11/20/flaws-in-vmware-and-kvm-need-attention-if-you-have-time-while-fixing-java-php-and-everything-else/5311193">The Register Security</a></small></p>
+<h3>nginx2root: pet ranjivosti u nginx-u omogućava RCE bez autentikacije</h3>
+<p>Otkriveno je pet grešaka u nginx-u koje izazivaju korupciju memorije i mogu da omoguće neautentifikovanom napadaču izvršavanje koda na serveru. Cloudflare navodi da su origin serveri iza njegovog proxy-ja zaštićeni od najtežih varijanti, ali svi koji sami hostuju nginx treba da prate zakrpe.</p>
+<p><small><a href="https://blog.cloudflare.com/nginx2root/">Cloudflare blog</a></small></p>
+<h3>Ranjivosti u VMware i KVM hipervizorima zahtevaju pažnju</h3>
+<p>Pored kritičnih VMware ispravki, prijavljene su i ranjivosti u KVM-u, uz neobičnu reakciju DigitalOcean-a na problem sa ugnježdenom virtualizacijom. Timovi koji održavaju virtualizacionu infrastrukturu treba da isplaniraju hitno ažuriranje.</p>
+<p><small><a href="https://www.theregister.com/security/2026/11/20/flaws-in-vmware-and-kvm-need-attention-if-you-have-time-while-fixing-java-php-and-everything-else/5311193">The Register Security</a></small></p>
+<h3>Nova Windows bezbednosna funkcija dozvoljava aplikacijama da odbiju rad na nesigurnim sistemima</h3>
+<p>Windows uvodi mehanizam kojim aplikacije mogu da odbiju izvršavanje na sistemima koji ne zadovoljavaju bezbednosne uslove. U istom pregledu: napad na HR platformu EU i planovi Ubuntu-a da AI koristi za ispravke u Edge izdanjima.</p>
+<p><small><a href="https://news.risky.biz/risky-bulletin-new-windows-security-feature-will-allow-apps-to-refuse-to-run-on-insecure-systems/">Risky Bulletin</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 19.11. u 23:28 (8 vesti, 5 za čitanje)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261119-2328</link><guid isPermaLink="false">tech-20261119-2328</guid><pubDate>Thu, 19 Nov 2026 22:28:52 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>Java4Shell (CVE-2026-114938): kritična ranjivost u OpenJDK Base64 dekoderu</h3>
+<p>Kritična greška u memoriji u Base64 dekoderu OpenJDK i srodnih Java distribucija može dovesti do remote code execution. Cloudflare je objavio šest WAF managed pravila za plaćene planove (podrazumevano samo loguju). Ažurirati Java runtime odmah i proveriti WAF pokrivenost.</p>
+<p><small><a href="https://www.percona.com/blog/java4shell-vulnerability-percona-security-update/">Percona</a> · <a href="https://blog.cloudflare.com/java4shell-waf-protection/">Cloudflare blog</a></small></p>
+<h3>HAProxy: tri DoS ranjivosti u HTTP/2 i HTTP/3</h3>
+<p>Nove verzije HAProxy Community, Enterprise, ALOHA, Kubernetes Ingress Controller i Unified Gateway ispravljaju tri ranjivosti odbijanja usluge. Svaka omogućava neautentifikovanom udaljenom klijentu da obori HAProxy sa specijalno kreiranim HTTP/2 ili HTTP/3 saobraćajem. Nadograditi na ispravljene verzije.</p>
+<p><small><a href="https://www.haproxy.com/blog/november-2026-cve-security-bulletin">HAProxy</a></small></p>
+<h3>ASUS Control Center Express: kritične ranjivosti sa hardkodiranim ključem</h3>
+<p>ASUS je izdao Control Center Express v1.7.29 koji ispravlja tri kritične ranjivosti, uključujući hardkodirani ključ, koje mogu omogućiti udaljenim napadačima administrativnu kontrolu nad konzolom i upravljanim uređajima. Ažurirati na v1.7.29.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/">BleepingComputer</a></small></p>
+<h3>SBC Medical Group: curenje podataka 1,6 miliona korisnika</h3>
+<p>SBC Medical Group je u prijavi SEC-u potvrdio dva bezbednosna incidenta koji su izložili osetljive podatke korisnika i zaposlenih, uključujući lične podatke 1,6 miliona ljudi.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/">BleepingComputer</a></small></p>
+<h3>Chase, Visa i Mastercard potvrdili napade treće strane</h3>
+<p>Kompanije su potvrdile sajber napade preko treće strane koji su mogli izložiti podatke korisnika, nakon prethodnih ispada servisa.</p>
+<p><small><a href="https://www.theregister.com/security/2026/11/19/chase-visa-mastercard-confirm-third-party-cyberattacks-that-may-have-exposed-customers-info/5311175">The Register Security</a></small></p>
+<h3>Linux 7.5: opciono blokiranje pristupa /proc/kcore</h3>
+<p>Zakrpa pred merge window za Linux 7.5 omogućava opciono onemogućavanje pristupa /proc/kcore pri bootu radi bolje bezbednosti. Ostaje podrazumevano uključeno u buildovima sa CONFIG_PROC_KCORE.</p>
+<p><small><a href="https://www.phoronix.com/news/Linux-7.5-Restrict-proc-kcore">Phoronix</a></small></p>
+<h3>NGINX 1.31.9: strože parsiranje zaglavlja i detekcija flood-a</h3>
+<p>NGINX Open Source 1.31.9 menja parsiranje HTTP saobraćaja: linija zaglavlja bez dvotačke sada odbija zahtev umesto da prođe kao prazno zaglavlje, a chunked upload dobija detekciju flood-a. Uključeni su i popravci za HTTP/2 i HTTP/3.</p>
+<p><small><a href="https://blog.nginx.org/blog/nginx-1-31-9-stricter-header-parsing-flood-detection-for-chunked-request-bodies-and-protocol-fixes-for-http-2-and-http-3">NGINX</a></small></p>
+<h3>NGINX 1.31.8: validacija radnog direktorijuma i tiši kernel TLS logovi</h3>
+<p>Izdanje hvata nevažeću putanju working_directory preko nginx -t pre deploya i donosi poboljšanja portabilnosti i tiše kernel TLS logove.</p>
+<p><small><a href="https://blog.nginx.org/blog/nginx-1-31-8-working-directory-validation-portability-improvements-and-quieter-kernel-tls-logs">NGINX</a></small></p>
+<h2>Za čitanje</h2>
+<h3>Zašto je MySQL OR sporiji od IN</h3>
+<p>Analiza upita sa OR uslovima koji skenira milion redova ali traje neuobičajeno dugo; CPU profil pokazuje gde odlazi vreme. Korisno za prepoznavanje kada prepisati OR u IN ili drugi plan izvršavanja.</p>
+<p><small><a href="https://www.percona.com/blog/why-mysql-or-is-slower-than-in/">Percona</a></small></p>
+<h3>XSS u innerHTML bez znaka jednakosti</h3>
+<p>PortSwigger istraživanje pokazuje tehniku izvršavanja XSS-a kroz innerHTML čak i kada nema znaka jednakosti, što zaobilazi uobičajene filtere. Relevantno za reviziju sanitizacije i CSP politika na frontendu.</p>
+<p><small><a href="https://portswigger.net/research/achieving-the-impossible-xss-in-innerhtml-without-equals">PortSwigger Research</a></small></p>
+<h3>Soft navigacije podižu CrUX pass rate</h3>
+<p>CrUX podaci pokazuju da uključivanje SPA soft navigacija podiže prolaznost Core Web Vitals bez stvarnog ubrzanja sajta. Važno za tumačenje CWV metrika i prioritizaciju optimizacija.</p>
+<p><small><a href="https://csswizardry.com/2026/11/web-perf-wednesday-018-soft-navigations-lift-the-crux-pass-rate/">CSS Wizardry</a></small></p>
+<h3>PlanetScale: tri popravke otkrivene Insights Agent-om</h3>
+<p>Konkretni nalazi na Rails API-ju: preuređena provera feature flag-a, indeks koji je usporio upit i indeks koji je upit sa sekundi sveo na milisekunde. Pokazuje kako merenje i analiza planova upita vode do pravih indeksa.</p>
+<p><small><a href="https://planetscale.com/blog/building-planetscale-with-insights-agent">PlanetScale</a></small></p>
+<h3>AI alati za pronalaženje bagova u open source softveru</h3>
+<p>Pogled na izazove AI-asistiranih bezbednosnih prijava u open source-u, sa komentarima Willyja Tarreaua o AI bagovima i pristupu modelima. Korisno za procenu kvaliteta AI-generisanih prijava ranjivosti.</p>
+<p><small><a href="https://www.haproxy.com/blog/on-the-use-of-ai-based-tools-to-find-bugs-in-open-source-software">HAProxy</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 19.11. u 21:43 (1 vest)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261119-2143</link><guid isPermaLink="false">tech-20261119-2143</guid><pubDate>Thu, 19 Nov 2026 20:43:06 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>SAD optužile ruskog državljanina za špijunažu u Silicijumskoj dolini</h3>
+<p>Savezne vlasti SAD optužile su 25-godišnjeg ruskog državljanina da je špijunirao tehnološku i odbrambenu kompaniju u Silicijumskoj dolini, uključujući praćenje zaposlenih i agresivnu poteru automobilom. Slučaj ukazuje na kontinuirani kontraobaveštajni rizik za odbrambenu i tehnološku industriju.</p>
+<p><small><a href="https://arstechnica.com/security/2026/11/man-charged-with-spying-on-silicon-valley-tech-and-defense-company-for-russia/">Ars Technica Security</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 19.11. u 21:21 (11 vesti)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261119-2121</link><guid isPermaLink="false">tech-20261119-2121</guid><pubDate>Thu, 19 Nov 2026 20:21:07 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>Nvidia istražuje mogući upad, ransomware grupa preti objavljivanjem podataka</h3>
+<p>Nvidia je pokrenula istragu o mogućem kompromitovanju nakon što je ransomware grupa postavila rok za plaćanje i zapretila curenjem ukradenih podataka. Kompanija nije potvrdila obim incidenta; administratori bi trebalo da prate zvanična saopštenja i provere izloženost svojih sistema prema Nvidia servisima.</p>
+<p><small><a href="https://www.theregister.com/security/2026/11/19/nvidia-adds-possible-hack-to-list-of-very-bad-things-under-investigation/5311153">The Register Security</a></small></p>
+<h3>Transport for London: curenje podataka 265.000 korisnika Oyster kartica</h3>
+<p>TfL je potvrdio da su podaci oko 265.000 korisnika Oyster photocard naloga možda izloženi u upadu. Pogođeni korisnici treba da obrate pažnju na obaveštenja TfL-a i da provere svoje naloge i lozinke.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/">BleepingComputer</a></small></p>
+<h3>Kritične NGINX ranjivosti &#x27;nginx2root&#x27; omogućavaju preuzimanje servera</h3>
+<p>Dve kritične NGINX ranjivosti nazvane &#x27;nginx2root&#x27; dozvoljavaju neautentifikovanim napadačima remote code execution, a istraživači su pokazali lančanje sa bugom u Linux kernelu za root pristup. Administratori treba odmah da primene zakrpe za NGINX i provere verzije.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/">BleepingComputer</a></small></p>
+<h3>PHP bezbednosna izdanja popravljaju 18 ranjivosti, uključujući kritični RCE</h3>
+<p>PHP tim je objavio zakrpe za 18 ranjivosti, među kojima su kritične koje omogućavaju neautentifikovanim napadačima remote code execution. Pogođene su grane 8.2, 8.3, 8.4 i 8.5; preporučuje se hitno ažuriranje na 8.2.36, 8.3.37, 8.4.28 i 8.5.13.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/">BleepingComputer</a> · <a href="https://lwn.net/Articles/1108552/">LWN</a> · <a href="https://www.theregister.com/patches/2026/11/18/another-critical-php-security-release-has-dropped/5310911">The Register Security</a></small></p>
+<h3>Evropska komisija potvrdila sajber napad uz korišćenje AI alata</h3>
+<p>Evropska komisija je potvrdila sajber napad i navela da su napadači koristili ARTEX, open-source AI platformu za hakovanje na koju je FBI nedavno upozorio. Incident pogađa institucije EU; detalji o obimu nisu objavljeni.</p>
+<p><small><a href="https://therecord.media/european-commission-confirms-cyberattack-using-ai">The Record</a></small></p>
+<h3>Britanski sud potvrdio da je vlada tajno naredila Apple-u pristup iCloud enkripciji</h3>
+<p>Tribunal je potvrdio da je britanska vlada servirala Apple-u tajno pravno naredjenje koje cilja kriptografske zaštite iCloud naloga. Ovo je prvi zvanični prikaz naredbe nakon skoro dve godine odbijanja potvrde.</p>
+<p><small><a href="https://therecord.media/apple-uk-encryption-notice">The Record</a></small></p>
+<h3>PostgreSQL 19 objavljen sa REPACK (CONCURRENTLY) i poboljšanjima performansi</h3>
+<p>PostgreSQL Global Development Group objavio je PostgreSQL 19, koji donosi REPACK (CONCURRENTLY) za optimizaciju tabela bez prekida rada i bolju kontrolu stabilnosti planova upita. Izdanje je kasnilo zbog velikog broja AI/LLM prijavljenih bugova i bezbednosnih problema.</p>
+<p><small><a href="https://lwn.net/Articles/1108561/">LWN</a> · <a href="https://www.phoronix.com/news/PostgreSQL-19-Released">Phoronix</a></small></p>
+<h3>PHP 8.6 objavljen sa delimičnom primenom funkcija</h3>
+<p>PHP 8.6.0 je zvanično objavljen sa delimičnom primenom funkcija, polling API-jem, funkcijom clamp(), SortDirection enumom i klasom Time\Duration. Izdanje dolazi uz bezbednosne zakrpe za starije grane.</p>
+<p><small><a href="https://www.phoronix.com/news/PHP-8.6-Released">Phoronix</a> · <a href="https://lwn.net/Articles/1108555/">LWN</a></small></p>
+<h3>Debian APT uklanja funkcije zbog AI otkrića u bezbednosti</h3>
+<p>Nakon ranjivosti man-in-the-middle u APT-ovom kodu za preuzimanje i napretka AI/LLM alata u bezbednosnim istraživanjima, Debian APT onemogućava i uklanja starije složene funkcije koje povećavaju rizik. Administratori Debian sistema treba da prate promene u ponašanju APT-a.</p>
+<p><small><a href="https://www.phoronix.com/news/Debian-APT-Removing-Features">Phoronix</a></small></p>
+<h3>Ruski državljanin optužen za praćenje inženjera u San Francisku</h3>
+<p>Ministarstvo pravde SAD optužilo je ruskog državljanina da je učestvovao u četvoromesečnoj operaciji nadzora zaposlenih i pokušaja krađe tajni od američke defense-tech kompanije. Slučaj ukazuje na hibridne pretnje prema tehnološkom sektoru.</p>
+<p><small><a href="https://www.theregister.com/security/2026/11/19/russian-national-accused-of-stalking-san-francisco-techie-in-plot-against-us-defense-tech-giant/5311126">The Register Security</a></small></p>
+<h3>DOJ i DHS osnivaju Threat Disruption Center za borbu protiv prevara i sajber kriminala</h3>
+<p>Departmani pravde i unutrašnje bezbednosti SAD pokreću Threat Disruption Center radi bolje trijaže prijava žrtava, mapiranja kriminalnih mreža i direktnog kanala sa privatnim sektorom. Nova jedinica menja način na koji se prijavljuju i obrađuju incidenti.</p>
+<p><small><a href="https://therecord.media/doj-dhs-partner-on-new-unit-tackling-scams-cybercrime">The Record</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 19.11. u 15:21 (4 vesti)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261119-1521</link><guid isPermaLink="false">tech-20261119-1521</guid><pubDate>Thu, 19 Nov 2026 14:21:07 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>Drupal popravio kritičnu RCE ranjivost, upozorava na brzu eksploataciju</h3>
+<p>Drupal Security Team je objavio zakrpu za kritičnu ranjivost udaljenog izvršavanja koda (RCE) koja omogućava preuzimanje kontrole nad ranjivim sajtovima. Eksploatacija se očekuje brzo, pa administratori treba odmah da primene dostupno ažuriranje.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/">BleepingComputer</a></small></p>
+<h3>Ukrajina razbila ransomware mrežu koja je iznudila preko 40 miliona dolara</h3>
+<p>Ukrajinske vlasti uhapsile su četiri osobe osumnjičene za članstvo u međunarodnoj ransomware mreži koja je iznudila više od 40 miliona dolara od kompanija u svetu, uključujući američke naftne i zdravstvene firme.</p>
+<p><small><a href="https://therecord.media/ukraine-ransomware-arrests-cyber">The Record</a></small></p>
+<h3>Rus optužen za špijuniranje zaposlenih u Palantiru</h3>
+<p>Ruski državljanin Igor Andreevich D&#x27;iu, regrutovan preko Telegrama, optužen je u SAD da je delovao kao moskovski agent u kampanji nadzora nad zaposlenima u odbrambeno-tehnološkoj kompaniji, navodno Palantir Technologies.</p>
+<p><small><a href="https://therecord.media/russian-charged-with-spying-on-palantir-for-moscow">The Record</a></small></p>
+<h3>Bezbednosna ažuriranja za AlmaLinux, Debian i Fedora</h3>
+<p>Izdati su bezbednosni paketi za više komponenti, uključujući cockpit, gimp, krb5, nginx, nodejs, php, tigervnc i xorg-x11-server u AlmaLinux-u, kao i haproxy, libreoffice, openjdk i needrestart u Debian-u. Sistemski administratori treba da primene dostupna ažuriranja.</p>
+<p><small><a href="https://lwn.net/Articles/1108551/">LWN</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 19.11. u 12:47 (1 vest)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261119-1247</link><guid isPermaLink="false">tech-20261119-1247</guid><pubDate>Thu, 19 Nov 2026 11:47:51 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>Sajber napad na Wellington IT izložio podatke korisnika 40 irskih kreditnih unija</h3>
+<p>Napad na irskog pružaoca bankarskih usluga Wellington IT, otkriven u novembru, kompromitovao je podatke o primaocima plaćanja u 40 irskih kreditnih unija. Ministar je odloženo obaveštavanje nazvao neprihvatljivim.</p>
+<p><small><a href="https://www.theregister.com/security/2026/11/19/cyberattack-on-service-provider-exposes-payee-data-at-40-irish-credit-unions/5310979">The Register Security</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 19.11. u 12:21 (8 vesti)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261119-1221</link><guid isPermaLink="false">tech-20261119-1221</guid><pubDate>Thu, 19 Nov 2026 11:21:07 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>TfL: napadnuti nalozi na sajtu Oyster photocards, pogođeno oko 265.000 korisnika</h3>
+<p>Transport for London je isključio sajt za Oyster photocard nakon što su napadači kompromitovali korisničke naloge. Procenjuje se da je potencijalno pogođeno oko 265.000 korisnika; korisnicima se savetuje da promene lozinke i prate obaveštenja TfL-a.</p>
+<p><small><a href="https://www.theregister.com/security/2026/11/19/tfl-takes-oyster-photocard-website-offline-after-attackers-compromise-customer-accounts/5310985">The Register Security</a></small></p>
+<h3>NVIDIA istražuje tvrdnje Gentlemen ransomware grupe o proboju</h3>
+<p>NVIDIA ispituje navode o bezbednosnom incidentu nakon što je Gentlemen ransomware grupa dodala kompaniju na svoju dark web stranicu za curenje podataka. Za sada nema potvrde o obimu ili autentičnosti ukradenih podataka.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/">BleepingComputer</a></small></p>
+<h3>Ruby2Shell: ranjivost objavljena pod GHSA-34m4-m9fh-gqp5</h3>
+<p>Objavljena je bezbednosna ranjivost Ruby2Shell pod oznakom GHSA-34m4-m9fh-gqp5. Detalji su dostupni u GitHub Security Advisory zapisu; korisnici pogođenih Ruby okruženja treba da provere savet i primene dostupnu zakrpu.</p>
+<p><small><a href="https://verialabs.com/ruby2shell/">Lobsters</a></small></p>
+<h3>Windows 11 hotpatch izaziva probleme sa instalacijom i pokretanjem aplikacija</h3>
+<p>Microsoft je potvrdio probleme sa instalacijom i pokretanjem Office i aplikacija trećih strana nakon ovogodišnjeg Windows 11 hotpatch-a i objavio workaround. Pogođeni administratori treba da primene preporučeni workaround do trajnog rešenja.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-app-installation-launch-issues-after-hotpatch/">BleepingComputer</a></small></p>
+<h3>Valkey 9.2: bolje performanse, Zstd kompresija i manje memorije</h3>
+<p>Valkey 9.2 je objavljen kao novo izdanje sa poboljšanim performansama, Zstd kompresijom i manjim memorijskim zauzećem. Bitno za timove koji koriste Valkey kao zamenu za Redis.</p>
+<p><small><a href="https://www.phoronix.com/news/Valkey-9.2">Phoronix</a></small></p>
+<h3>Linux 7.5 donosi podršku za senzore na više ASUS i ASRock matičnih ploča</h3>
+<p>U hwmon-next granu za Linux 7.5 uključeni su patchevi koji proširuju podršku za nadzor senzora na veći broj ASUS i ASRock matičnih ploča. Relevantno za administratore koji prate hwmon podršku na desktop hardveru.</p>
+<p><small><a href="https://www.phoronix.com/news/Linux-75-More-ASUS-ASRock-HWMON">Phoronix</a></small></p>
+<h3>AMD objavio AIE drajver za mainline Linux kernel</h3>
+<p>AMD je poslao patcheve za novi AMD AI Engine (AIE) akceleratorski drajver za mainline Linux kernel, odvojeno od postojećeg AMDXDNA drajvera za Ryzen AI NPU. Drajver je u fazi pregleda za uključivanje u kernel.</p>
+<p><small><a href="https://www.phoronix.com/news/AMD-AI-Engine-Linux-Driver">Phoronix</a></small></p>
+<h3>Mesa 26.3.1 sa ispravkama za Intel Jay Compiler i RADV</h3>
+<p>Objavljena je Mesa 26.3.1, prvo point izdanje serije 26.3, sa ispravkama za Intel Jay Compiler i RADV drajver. Preporučuje se onima koji su na 26.3 ili čekaju stabilnije izdanje.</p>
+<p><small><a href="https://www.phoronix.com/news/Mesa-26.3.1-Released">Phoronix</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 19.11. u 03:37 (2 vesti)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261119-0337</link><guid isPermaLink="false">tech-20261119-0337</guid><pubDate>Thu, 19 Nov 2026 02:37:12 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>Više ranjivosti u Regexp i String case conversion</h3>
+<p>Objavljeni su bezbednosni saveti za više ranjivosti u Regexp i String case conversion. Detalji o pogođenim verzijama i popravkama nalaze se u savetima; preporučuje se ažuriranje pogođenih komponenti.</p>
+<p><small><a href="https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/">Lobsters</a></small></p>
+<h3>NGINX RCE ranjivost</h3>
+<p>LWN nedeljni pregled pominje NGINX RCE ranjivost među bezbednosnim vestima nedelje. Pogođene verzije i popravka nisu navedene u izvoru; proveriti zvanične NGINX savete i ažurirati.</p>
+<p><small><a href="https://lwn.net/Articles/1107147/">LWN</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 19.11. u 00:21 (5 vesti)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261119-0021</link><guid isPermaLink="false">tech-20261119-0021</guid><pubDate>Wed, 18 Nov 2026 23:21:06 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>FBI i Ukrajina uhapsili članove ransomware grupe povezane sa 40,5 miliona dolara otkupa</h3>
+<p>Ukrajinske vlasti su uz FBI uhapsile četiri osobe osumnjičene za članstvo u međunarodnoj ransomware organizaciji povezanoj sa više od 40,5 miliona dolara isplaćenih otkupa od najmanje 28 kompanija širom sveta. Akcija je rezultat zajedničke istrage i ukazuje na nastavak pritiska na ransomware ekosistem.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/">BleepingComputer</a></small></p>
+<h3>Kritično PHP bezbednosno izdanje zakazano za četvrtak</h3>
+<p>Najavljeno je novo kritično PHP bezbednosno izdanje koje će u četvrtak ispraviti najmanje jedan opasan RCE bug. Administratori koji hostuju PHP aplikacije treba da planiraju hitno ažuriranje na novu verziju čim bude objavljena.</p>
+<p><small><a href="https://www.theregister.com/patches/2026/11/18/get-ready-for-another-critical-php-security-release-to-drop/5310911">The Register Security</a></small></p>
+<h3>AI alat pronašao kritične bugove u NGINX-u koji pokreće 225 miliona sajtova</h3>
+<p>Open source NGINX, koji pokreće oko 225 miliona web sajtova, dobio je zakrpe nakon što je AI alat pronašao više kritičnih ranjivosti. Administratori treba da primene najnovije NGINX izdanje sa ispravkama.</p>
+<p><small><a href="https://www.theregister.com/security/2026/11/18/ai-found-more-critical-bugs-in-another-widely-used-technology-running-225m-websites/5310887">The Register Security</a></small></p>
+<h3>Coinbase blokirao 4,7 miliona dolara transfera u Elon Musk deepfake prevari</h3>
+<p>Coinbase je saopštio da je blokirao 4,7 miliona dolara kripto transfera ka prevarantima koji su koristili AI deepfake Elona Maska tokom Tesla livestream-a sa više od 500.000 gledalaca. Slučaj pokazuje rastuću pretnju AI-generisanih prevara u kripto prostoru.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/">BleepingComputer</a></small></p>
+<h3>Sud odobrio prodaju podataka Spirit Airlines-a Google-u za 10 miliona dolara</h3>
+<p>Federalni stečajni sudija odobrio je da Google preuzme podatke ugašene aviokompanije Spirit Airlines za 10 miliona dolara, uz mere zaštite, za potrebe AI projekata. Odluka otvara pitanja o sudbini korisničkih podataka propalih kompanija.</p>
+<p><small><a href="https://therecord.media/judge-signs-off-google-purchase-spirit-airlines-data">The Record</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 18.11. u 21:37 (2 vesti)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261118-2137</link><guid isPermaLink="false">tech-20261118-2137</guid><pubDate>Wed, 18 Nov 2026 20:37:53 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>Microsoftov Python agent framework preuzet za distribuciju malvera</h3>
+<p>Napadači su kompromitovali administratorske kredencijale GitHub organizacije i iskoristili zvanični Microsoftov Python agent framework za distribuciju malvera. Pogođeni su korisnici koji instaliraju pakete iz tog repozitorijuma; preporučuje se provera integriteta zavisnosti i rotacija kredencijala.</p>
+<p><small><a href="https://www.theregister.com/security/2026/11/18/microsofts-official-python-agent-framework-hijacked-to-distribute-malware/5310858">The Register Security</a></small></p>
+<h3>Waymo obustavio vožnje bez vozača na auto-putevima širom SAD</h3>
+<p>Kalifornija je naložila Waymu da obustavi robotaksi vožnje na brzim putevima nakon incidenata u zonama radova i kontakta sa patrolnim vozilima. Kompanija je privremeno suspendovala vožnje bez vozača na auto-putevima u celoj zemlji.</p>
+<p><small><a href="https://www.theregister.com/security/2026/11/18/california-tells-waymo-to-take-the-next-exit-after-freeway-mishaps/5310841">The Register Security</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 18.11. u 21:21 (3 vesti)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261118-2121</link><guid isPermaLink="false">tech-20261118-2121</guid><pubDate>Wed, 18 Nov 2026 20:21:07 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>Curenje podataka pogađa 40 irskih kreditnih unija</h3>
+<p>Navodni sajber napad na IT provajdera Wellington IT izložio je osetljive podatke članova 50 kreditnih unija, većinom u Irskoj. Incident pogađa korisnike tih institucija; pogođene unije treba da obaveste članove i preduzmu mere zaštite.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/">BleepingComputer</a></small></p>
+<h3>Kritično PHP bezbednosno izdanje zakazano za 18. novembar</h3>
+<p>Najavljeno je kritično PHP bezbednosno izdanje, što ukazuje na ranjivost visokog rizika u široko korišćenom jeziku. Administratori treba da prate objavljivanje i što pre primene zakrpe.</p>
+<p><small><a href="https://www.php.net/index.php#2026-11-18-1">Lobsters</a></small></p>
+<h3>Senatori pozivaju Belu kuću na razvoj odbrambenih AI sajber sistema</h3>
+<p>Dvopartijski par senatora pozvao je Belu kuću da pokrene nacionalni napor za suprotstavljanje sajber pretnjama uz pomoć AI, nakon nedavnih incidenata sa veštačkom inteligencijom. Predlog se odnosi na nacionalnu politiku odbrane, ne na konkretnu ranjivost.</p>
+<p><small><a href="https://therecord.media/ai-cyber-white-house">The Record</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 18.11. u 18:22 (6 vesti)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261118-1822</link><guid isPermaLink="false">tech-20261118-1822</guid><pubDate>Wed, 18 Nov 2026 17:22:09 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>Kritične RCE ranjivosti u nginx-u (NGINX2Root)</h3>
+<p>Istraživači su objavili pet kritičnih ranjivosti u nginx web serveru; najteža omogućava neautentifikovanom napadaču izvršavanje komandi na serveru sa uključenim HTTP/2, a postoji i lokalna eskalacija privilegija. Preporučuje se provera verzije i primena zakrpa čim budu dostupne, uz privremeno razmatranje onemogućavanja HTTP/2.</p>
+<p><small><a href="https://lwn.net/Articles/1108362/">LWN</a> · <a href="https://xint.io/blog/nginx2root-remote-code-execution">Lobsters</a></small></p>
+<h3>Kompromitovan Microsoft Agent Framework paket na PyPI</h3>
+<p>Napadači su preuzeli zvanični Microsoft Agent Framework Python paket na PyPI i objavili dve zlonamerne verzije koje kradu cloud kredencijale i osetljive podatke sa razvojnih sistema. Pogođeni su developeri koji su instalirali te verzije; potrebno je ukloniti paket, rotirati kredencijale i proveriti sisteme na kompromitaciju.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/">BleepingComputer</a></small></p>
+<h3>Ruska špijunska grupa koristi ukradene cloud podatke za nove napade</h3>
+<p>Google izveštava da ruska državno podržana grupa koristi podatke iz kompromitovanih cloud naloga da se predstavi kao pouzdan kontakt i pokrene nove špijunske napade na profesionalne mreže žrtava. Rizik je za organizacije sa kompromitovanim cloud identitetima; preporučuje se jača verifikacija identiteta i revizija pristupa.</p>
+<p><small><a href="https://therecord.media/russia-cyber-espionage-google">The Record</a></small></p>
+<h3>Prekidi u klasifikovanoj mreži NSA</h3>
+<p>Drugi dan zastoja u NSA Net mreži uključivao je otežane dolaske i prijave u Fort Meade, dok klasifikovani nacionalno-bezbednosni rad navodno nije bio prekinut. Uzrok i obim incidenta nisu potvrđeni.</p>
+<p><small><a href="https://therecord.media/nsa-continues-response-to-nsa-net-problems">The Record</a></small></p>
+<h3>Britanski haker osuđen na šest godina zbog krađe kriptovaluta</h3>
+<p>Tyler Robert Buchanan (24) iz Dundeeja u Škotskoj osuđen je na šest godina zatvora zbog šeme krađe kriptovaluta vredne 11,6 miliona dolara. Microsoft ga je ranije opisao kao mogućeg vođu jedne od najopasnijih finansijskih kriminalnih grupa.</p>
+<p><small><a href="https://therecord.media/british-hacker-gets-six-year-sentence-scattered-spider">The Record</a></small></p>
+<h3>NVIDIA 620.73.04 Linux drajver sa ispravkama grešaka</h3>
+<p>Objavljen je NVIDIA 620.73.04 Linux drajver, najnovija verzija u R620 grani, sa ispravkama grešaka u odnosu na 620.70.06. Preporučuje se ažuriranje korisnicima R620 serije.</p>
+<p><small><a href="https://www.phoronix.com/news/NVIDIA-620.73.04-Linux">Phoronix</a></small></p>]]></description></item>
+</channel></rss>
