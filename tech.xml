@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Boox vesti: Bezbednost, Linux, DevOps</title><link>https://DrColosso42.github.io/boox-vesti/</link><description>Bezbednost, Linux, DevOps</description><language>sr</language><lastBuildDate>Sat, 28 Nov 2026 14:21:18 +0000</lastBuildDate><atom:link href="https://DrColosso42.github.io/boox-vesti/tech.xml" rel="self" type="application/rss+xml"/>
+<item><title>Sec/Linux/DevOps 28.11. u 08:56 (11 vesti, 1 za čitanje)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261128-0856</link><guid isPermaLink="false">tech-20261128-0856</guid><pubDate>Sat, 28 Nov 2026 07:56:24 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>Cacti zero-day sa javnim PoC-om omogućava RCE bez autentikacije</h3>
+<p>Objavljena je ranjivost nula-dana u Cacti platformi za monitoring mreže, zajedno sa proof-of-concept exploitom koji neautentifikovanim napadačima omogućava izvršavanje komandi na ranjivim serverima. Nema zvanične zakrpe, pa treba ograničiti pristup Cacti interfejsu na pouzdane mreže i pratiti izlazak popravke.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/">BleepingComputer</a></small></p>
+<h3>SAP potvrdio bezbednosni incident, navodno curenje izvornog koda</h3>
+<p>SAP je potvrdio sajber incident nakon izveštaja da su napadači prodrli u infrastrukturu za razvoj softvera i mogli doći do izvornog koda. Pogođeni su korisnici SAP proizvoda i partneri; treba pratiti zvanična uputstva kompanije i proveriti integritet isporuka.</p>
+<p><small><a href="https://therecord.media/sap-germany-cyberattack-github">The Record</a></small></p>
+<h3>pCloud Pass potvrdio hakovanje password managera</h3>
+<p>pCloud Pass je pretrpeo napad, a korisnici prijavljuju povezivanje nepoznatih uređaja na naloge i pored uključene 2FA. Preporučuje se promena master lozinke, opoziv sesija i provera da li su sačuvane tajne kompromitovane.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/">BleepingComputer</a></small></p>
+<h3>Navodni upad u cloud platformu američkog ratnog vazduhoplovstva</h3>
+<p>Hakeri su navodno kompromitovali Cloud One platformu US Air Force, u nizu napada na američke federalne agencije (FBI, CIA, Treasury). Detalji o obimu i podacima još nisu potvrđeni.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/">BleepingComputer</a></small></p>
+<h3>Japansko ministarstvo obrazovanja prijavilo upad u sistem javnih nabavki</h3>
+<p>Ministarstvo obrazovanja Japana saopštilo je da su hakeri prodrli u vladin sistem nabavki, uz moguće izlaganje poslovnih informacija i email adresa. Incident je u fazi istrage.</p>
+<p><small><a href="https://therecord.media/japan-education-ministry-cyberattack">The Record</a></small></p>
+<h3>Boston Scientific objavio obaveštenja o curenju ličnih i medicinskih podataka</h3>
+<p>Medicinska tehnološka kompanija Boston Scientific šalje obaveštenja pojedincima pogođenim sajber napadom koji je izložio lične i medicinske podatke. Pogođeni treba da prate uputstva iz obaveštenja.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/">BleepingComputer</a></small></p>
+<h3>Linux kernel uklanja poslednji VME vme_user kod</h3>
+<p>Iz Linux kernela se uklanja preostali kod za zastareli VME vme_user interfejs, uz obrazloženje da AI/LLM alati stvaraju šum oko nekorišćenog koda. Nema bezbednosnih implikacija za moderne sisteme.</p>
+<p><small><a href="https://www.phoronix.com/news/Linux-Drops-VME-Bus-User">Phoronix</a></small></p>
+<h3>Pop!_OS 26.04 LTS objavljen</h3>
+<p>Objavljeno je izdanje Pop!_OS 26.04 LTS distribucije. Za servere je relevantno pre svega kao nova LTS osnova za testiranje i migracije.</p>
+<p><small><a href="https://system76.com/blog/post/pop_os-26-04-lts-has-landed">Lobsters</a></small></p>
+<h3>Linux Mint 27 beta sa punom Wayland podrškom</h3>
+<p>Objavljena je beta verzija Linux Mint 27 sa novim aplikacijama i punom Wayland podrškom; finalno izdanje se očekuje oko Božića.</p>
+<p><small><a href="https://www.phoronix.com/news/Linux-Mint-27-Beta">Phoronix</a></small></p>
+<h3>Wine 11.23: ARM64 macOS i AVX u 32-bit emulaciji na ARM64</h3>
+<p>Wine 11.23 donosi podršku za ARM64 macOS i AVX u 32-bit emulaciji na ARM64, uoči faze release candidate za Wine 12.0.</p>
+<p><small><a href="https://www.phoronix.com/news/Wine-11.23-Released">Phoronix</a></small></p>
+<h3>Bezbednosna ažuriranja za AlmaLinux, Debian i Fedora</h3>
+<p>Izdati su bezbednosni update-i, između ostalog za kernel, MariaDB, grafana, exim4, pam i chromium u AlmaLinux, Debian i Fedora distribucijama. Preporučuje se redovna primena zakrpa.</p>
+<p><small><a href="https://lwn.net/Articles/1110189/">LWN</a></small></p>
+<h2>Za čitanje</h2>
+<h3>Prelazak sa Ingress-NGINX bez prepisivanja Ingress resursa</h3>
+<p>Ingress-NGINX je arhiviran i više neće dobijati bezbednosne popravke, pa tekst objašnjava kako migrirati klastere na drugi kontroler bez menjanja postojećih Ingress resursa. Korisno za planiranje prelaska pre nego što propusti u arhiviranom projektu postanu rizik.</p>
+<p><small><a href="https://blog.nginx.org/blog/moving-off-ingress-nginx-without-rewriting-your-ingress-resources">NGINX</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 27.11. u 13:34 (7 vesti)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261127-1334</link><guid isPermaLink="false">tech-20261127-1334</guid><pubDate>Fri, 27 Nov 2026 12:34:41 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>Drupal: druga kritična ranjivost aktivno iskorišćena za preuzimanje sajtova</h3>
+<p>Drupal bezbednosni tim upozorava da napadači aktivno iskorišćavaju drugu kritičnu ranjivost koja omogućava preuzimanje nezakrpljenih sajtova. Administratori Drupala treba odmah da primene dostupne zakrpe i provere da li je sajt kompromitovan.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/">BleepingComputer</a></small></p>
+<h3>SAP potvrdio bezbednosni incident nakon sumnjive aktivnosti na GitHubu</h3>
+<p>SAP je potvrdio da je hitno reagovao da zaštiti korisnike nakon što je uočena sumnjiva aktivnost u njegovom IT okruženju i na GitHubu. Kompanija nije objavila detalje o obimu incidenta.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/">BleepingComputer</a></small></p>
+<h3>Britanski DWP isključio servise zbog sajber incidenta</h3>
+<p>Britansko Ministarstvo za rad i penzije (DWP) saopštilo je da je pretrpelo sajber incident i preventivno isključilo nekoliko servisa. Penzioneri su dobili uveravanja da će isplate ići normalno.</p>
+<p><small><a href="https://www.theregister.com/security/2026/11/27/british-social-security-system-techies-yank-services-offline-following-cyber-incident/5312522">The Register Security</a> · <a href="https://therecord.media/uk-department-work-pensions-cyber-incident">The Record</a></small></p>
+<h3>Sajber napad prekinuo platformu za distribuciju vesti AFP-a</h3>
+<p>Francuska agencija AFP pogođena je sajber napadom koji je primorao na isključivanje jedne od glavnih platformi za distribuciju vesti medijima širom sveta.</p>
+<p><small><a href="https://therecord.media/france-afp-hit-by-cyberattack">The Record</a></small></p>
+<h3>Microsoft hitno zakrpljuje rušenje Windows Servera 2025</h3>
+<p>Microsoft je objavio vanredni hotpatch koji otklanja rušenje Windows Servera 2025 nakon instalacije ovomesečnog bezbednosnog hotpatcha KB5131077. Pogođeni administratori treba da primene ispravku.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/">BleepingComputer</a></small></p>
+<h3>systemd 263-rc1: prvi Rust kod, pseudo TTY broker i manifest alat</h3>
+<p>Objavljen je systemd 263-rc1 sa početnom podrškom za pisanje novih programa u Rustu, novim servisom pseudo TTY brokera, manifest alatom i novim keyring servisom. Izdanje je predmet testiranja pre finalne verzije.</p>
+<p><small><a href="https://www.phoronix.com/news/systemd-263-rc1">Phoronix</a></small></p>
+<h3>Microsoft ukida WSUS serversku ulogu u Windows Serveru 2028</h3>
+<p>Microsoft će ukloniti WSUS serversku ulogu iz Windows Servera 2028, sledećeg velikog izdanja serverskog OS-a. Organizacije koje koriste WSUS za upravljanje zakrpama treba da planiraju migraciju.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/">BleepingComputer</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 27.11. u 09:20 (1 vest, 1 za čitanje)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261127-0920</link><guid isPermaLink="false">tech-20261127-0920</guid><pubDate>Fri, 27 Nov 2026 08:20:48 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>Kritična NFS ranjivost u Linux kernelu omogućava root pristup</h3>
+<p>Ranjivost stara 12 godina u NFS serveru Linux kernela, označena kao CVE-2026-99362, omogućava udaljenim napadačima da dobiju root privilegije. Pogađa sisteme koji izlažu NFS server; potrebno je primeniti zakrpu iz ažuriranog kernela čim postane dostupna.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/">BleepingComputer</a></small></p>
+<h2>Za čitanje</h2>
+<h3>Bezbedno upravljanje MySQL replikacionim filterima u produkciji</h3>
+<p>Prikazana je praktična procedura za dodavanje i uklanjanje filtera tabela u MySQL replikaciji bez ponovnog izgrađivanja replika. Koristi mydumper za re-sync i vraćanje tabela u replikacioni tok, što je direktno primenljivo pri izmenama šeme na velikim sajtovima.</p>
+<p><small><a href="https://www.percona.com/blog/a-practical-guide-to-adding-and-updating-mysql-replication-filters/">Percona</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 27.11. u 02:46 (2 vesti)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261127-0246</link><guid isPermaLink="false">tech-20261127-0246</guid><pubDate>Fri, 27 Nov 2026 01:46:40 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>Kritična SQL injekcija u DIGIT platformi za e-upravu</h3>
+<p>Platforma DIGIT (Digital Infrastructure for Governance Impact and Transformation), koju koristi oko dve milijarde ljudi u deset zemalja, ima kritičnu ranjivost SQL injekcije koja može da dovede do curenja podataka. Administratori koji je koriste treba da primene zakrpe i provere izloženost baze.</p>
+<p><small><a href="https://www.theregister.com/security/2026/11/27/free-e-government-platform-that-serves-two-billion-people-in-ten-countries-has-critical-sql-injection-bug/5312449">The Register Security</a></small></p>
+<h3>Kompromitovan paket menadžer za Erlang i Elixir</h3>
+<p>Napadači su probili paket menadžer za Erlang i Elixir ekosisteme, što otvara rizik od zlonamernih paketa u lancu snabdevanja. U istom izveštaju: FinCEN istražuje bezbednosni incident, a 1Password je kompromitovan preko zaposlenog GitHub naloga.</p>
+<p><small><a href="https://news.risky.biz/risky-bulletin-hackers-breach-erlang-and-elixir-package-manager/">Risky Bulletin</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 26.11. u 21:21 (2 vesti)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261126-2121</link><guid isPermaLink="false">tech-20261126-2121</guid><pubDate>Thu, 26 Nov 2026 20:21:08 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>Microsoft: kineski i severnokorejski napadači koriste ARTEX AI alat za upade u tehnološke sisteme</h3>
+<p>Microsoft izveštava da grupe iz Kine i Severne Koreje koriste agentni ofanzivni framework ARTEX koji automatizuje poznate tehnike napada i u nekim slučajevima probija slabu odbranu za nekoliko minuta. Pogođeni su globalni tehnološki sistemi sa nedovoljno ojačanom odbranom; preporučuje se jačanje autentikacije, segmentacije i detekcije.</p>
+<p><small><a href="https://www.theregister.com/security/2026/11/26/microsoft-hackers-in-china-n-korea-using-artex-ai-tool-to-break-into-global-tech-systems/5312433">The Register Security</a></small></p>
+<h3>Ladybird browser ulazi u alpha testiranje</h3>
+<p>Nezavisni browser Ladybird dobija preuzimanja za macOS i Linux u alpha fazi, ali bez bezbednosnih garancija. Za serversko okruženje nije relevantno osim kao informacija o novom engine-u.</p>
+<p><small><a href="https://www.theregister.com/software/2026/11/26/indie-web-browser-ladybird-enters-alpha-testing/5311914">The Register Software</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 26.11. u 18:21 (1 vest)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261126-1821</link><guid isPermaLink="false">tech-20261126-1821</guid><pubDate>Thu, 26 Nov 2026 17:21:09 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>Phishing kampanja &quot;GoodGuys&quot; krade Google i Okta naloge preko lažnih intervjua</h3>
+<p>Aktivna kampanja lažno predstavlja Google, Nvidiu, Accenture i SpaceX i preko pozivnica na plaćene ekspertske intervjue i webinare krade korporativne Google i Okta akreditive. Pogađa zaposlene u firmama koje koriste te servise; treba obučiti korisnike da ne unose lozinke preko linkova iz takvih pozivnica i proveriti pokušaje prijave.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/">BleepingComputer</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 26.11. u 17:59 (10 vesti, 2 za čitanje)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261126-1759</link><guid isPermaLink="false">tech-20261126-1759</guid><pubDate>Thu, 26 Nov 2026 16:59:10 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>1Password potvrdio upad u backend i krađu izvornog koda i podataka o korisnicima</h3>
+<p>Napadač je ubacio zlonamerni kod u backend servise 1Password-a i došao do dela izvornog koda i podataka o korisnicima. Kompanija tvrdi da lozinke i sefovi nisu kompromitovani; preporučuje se rotacija API tokena i provera aktivnosti integracija.</p>
+<p><small><a href="https://www.theregister.com/security/2026/11/26/hackers-help-themselves-to-1passwords-source-code-and-customer-data/5312317">The Register Security</a></small></p>
+<h3>Flight Centre Travel Group: kompromitovan značajan broj korisničkih zapisa</h3>
+<p>Potvrđen je incident u Flight Centre Travel Group u kome je pogođen veliki broj korisničkih zapisa, u nizu sličnih napada na sisteme za rezervacije širom sveta. Pogođeni korisnici treba da očekuju reset lozinki i pažljivo prate phishing poruke.</p>
+<p><small><a href="https://www.theregister.com/security/2026/11/26/significant-number-of-customer-records-pwned-in-flight-centre-travel-group-breach/5312360">The Register Security</a></small></p>
+<h3>Remus infostealer krade Gmail poruke preko lažnog Google Sheets ekstenzija</h3>
+<p>Remus infostealer koristi zlonamerni Chrome ekstenzij koji se predstavlja kao Google Sheets i krade sadržaj Gmail poruka; operateri su to reklamirali kao zero-day u Google-ovoj e-pošti. Administratori treba da provere instalirane ekstenzije na korisničkim mašinama i blokiraju nepoznate.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/">BleepingComputer</a></small></p>
+<h3>SYS01 malware preko Meta oglasa upravlja browserima i krade Gmail/Outlook poštu</h3>
+<p>Nova verzija SYS01 infostealera širi se preko Meta oglasa i upisuje browser u enterprise-style upravljanje kako bi nasilno instalirala ekstenziju za krađu Gmail i Outlook sadržaja. Preporučuje se provera politika ekstenzija i MDM upisa na krajnjim tačkama.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/">BleepingComputer</a></small></p>
+<h3>Cyberattack zaustavio uranijumsku operaciju Peninsula Energy u Wyomingu</h3>
+<p>Peninsula Energy je obustavila rad postrojenja i polja bušotina nakon sajber napada koji je pogodio kontrolne sisteme; datum restarta nije poznat. Incident pokazuje rizik OT/ICS sistema u energetici i potrebu za segmentacijom i offline backup-om.</p>
+<p><small><a href="https://www.theregister.com/security/2026/11/26/wyoming-uranium-operation-shuts-down-after-cyberattack/5312323">The Register Security</a></small></p>
+<h3>Bezbednosna ažuriranja: kernel, nginx, openssl, php, grafana i drugi paketi</h3>
+<p>AlmaLinux je izdao zakrpe za kernel, nginx 1.24/1.26, openssl, php, grafana, freerdp, ghostscript i niz drugih paketa. Sistemski administratori treba da primene ažuriranja, posebno na javno dostupnim nginx i openssl servisima.</p>
+<p><small><a href="https://lwn.net/Articles/1109990/">LWN</a></small></p>
+<h3>ICO kritikovao UK Home Office zbog graničnog sistema sa neispravnim podacima</h3>
+<p>ICO je izdao opomenu Home Office-u jer je pušten u rad granični sistem bez funkcionalne popravke za neispravne podatke, što je nosilo rizik od nezakonitog zadržavanja; privremeni proces ispravke kasnio je više od godinu dana. Slučaj je relevantan za upravljanje rizikom pri uvođenju sistema sa ličnim podacima.</p>
+<p><small><a href="https://www.theregister.com/security/2026/11/26/uk-home-office-waved-through-border-system-without-a-working-fix-for-bad-data/5312162">The Register Security</a></small></p>
+<h3>UK National Cyber Action Plan odložen za 9. decembar</h3>
+<p>Britanska vlada je odložila objavljivanje Nacionalnog sajber akcionog plana sa sredine novembra na 9. decembar. Plan treba da definiše odbranu šire ekonomije od državno sponzorisanih i kriminalnih hakera.</p>
+<p><small><a href="https://therecord.media/britain-delays-national-cyber-action-plan-again">The Record</a></small></p>
+<h3>F2FS dobija podršku za large folios</h3>
+<p>Rad na large folios podršci u buffered I/O putanjama F2FS fajl sistema bliži se završetku i može da donese performansne dobitke. Relevantno za servere koji koriste F2FS na fleš memoriji.</p>
+<p><small><a href="https://www.phoronix.com/news/F2FS-Large-Folios-Coming">Phoronix</a></small></p>
+<h3>Intel Xe drajver dobija PCIe Function Level Reset u Linuxu 7.5</h3>
+<p>Intel-ov Xe kernel drajver za Linux 7.5 uvodi PCIe Function Level Reset (FLR), što olakšava resetovanje GPU funkcija bez punog restarta. Bitno za virtuelizaciju i oporavak GPU resursa na serverima.</p>
+<p><small><a href="https://www.phoronix.com/news/Intel-Xe-PCIe-FLR-Linux-7.5">Phoronix</a></small></p>
+<h2>Za čitanje</h2>
+<h3>Jiffies: otkucaji srca Linux kernela</h3>
+<p>Objašnjava kako jiffies rade u Linux kernelu, kako se koriste za merenje vremena i kašnjenja i koje su zamke pri radu sa njima. Korisno za razumevanje tajmera, schedulera i dijagnostiku kašnjenja na serverima.</p>
+<p><small><a href="https://blogs.oracle.com/linux/jiffies-the-heartbeat-of-the-linux-operating-system">Lobsters</a></small></p>
+<h3>Zašto backup server ne sme biti u istom Windows domenu kao produkcija</h3>
+<p>Analiza incidenta u kome su napadači došli do izloženih backup sistema jer su bili u istom domenu kao produkcija. Konkretna lekcija: odvojiti backup infrastrukturu, koristiti odvojene kredencijale i imati offline kopije.</p>
+<p><small><a href="https://www.theregister.com/security/2026/11/26/company-was-religious-about-backups-but-sinned-by-leaving-them-exposed/5312234">The Register Security</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 26.11. u 00:21 (6 vesti)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261126-0021</link><guid isPermaLink="false">tech-20261126-0021</guid><pubDate>Wed, 25 Nov 2026 23:21:06 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>Palo Alto upozorava na Fragnesia ranjivost iskorišćenu u PAN-OS napadima</h3>
+<p>Napadači lančano koriste eksploite za PHP2Shell i Fragnesia ranjivosti protiv Palo Alto Networks uređaja sa upravljačkim interfejsima izloženim internetu. Preporučuje se da se upravljački interfejs ne izlaže javno i da se primene dostupne zakrpe.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/">BleepingComputer</a></small></p>
+<h3>1Password priznao curenje podataka klijenata nakon kompromitovanja GitHub naloga zaposlenog</h3>
+<p>Napadač je preuzeo korporativni GitHub nalog zaposlenog i preko njega ubacio zlonamerni kod u backend servise kompanije radi krađe podataka klijenata. Incident pogađa korisnike 1Password-a; kompanija je objavila obaveštenje o curenju.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/">BleepingComputer</a></small></p>
+<h3>Microsoft: kineska grupa Salt Typhoon koristi AI alat Artex</h3>
+<p>Microsoft navodi da se AI alat Artex, povezan sa više visokoprofilnih upada, brzo ugrađuje u napadačke alate grupa iz Kine i Severne Koreje. Nalaz ukazuje na automatizaciju i ubrzanje ofanzivnih operacija.</p>
+<p><small><a href="https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool">The Record</a></small></p>
+<h3>FIFA: hakeri pristupili ograničenom skupu ličnih i poslovnih podataka</h3>
+<p>FIFA je potvrdila upad u kome su napadači došli do ograničenog skupa ličnih i poslovnih informacija. Organizacija sarađuje sa nadležnim organima i policijom na istrazi.</p>
+<p><small><a href="https://therecord.media/fifa-data-breach-limited">The Record</a></small></p>
+<h3>Italija i Švajcarska upozoravaju na autonomne AI napade na kritičnu infrastrukturu</h3>
+<p>Nacionalne sajber agencije Švajcarske i Italije upozorile su na automatizovane napade pokretane AI agentima usmerene na organizacije u sektoru kritične infrastrukture.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/">BleepingComputer</a></small></p>
+<h3>Bezbednost vodovodnih sistema SAD gora nego što se mislilo</h3>
+<p>Istraživanje pokazuje da su američki vodovodni sistemi izloženiji nego što se procenjivalo, a napadači često ne moraju ni da eksploatišu ranjivosti da bi ušli. Nalaz se tiče operatera kritične infrastrukture.</p>
+<p><small><a href="https://www.theregister.com/security/2026/11/25/the-security-of-us-water-systems-is-even-leakier-than-we-thought/5312243">The Register Security</a></small></p>]]></description></item>
+<item><title>Sec/Linux/DevOps 25.11. u 20:21 (15 vesti, 2 za čitanje)</title><link>https://DrColosso42.github.io/boox-vesti/#tech-20261125-2021</link><guid isPermaLink="false">tech-20261125-2021</guid><pubDate>Wed, 25 Nov 2026 19:21:59 +0000</pubDate><category>Digest</category><description><![CDATA[<h3>Kritična Drupal RCE ranjivost aktivno iskorišćena</h3>
+<p>Drupal security tim je potvrdio da je kritična ranjivost koja omogućava preuzimanje kontrole nad sajtom aktivno eksploatisana od najmanje četvrtka. Administratori moraju odmah da primene zakrpe na neažurirane Drupal instalacije.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/">BleepingComputer</a></small></p>
+<h3>FinCEN sistemi van pogona nakon upada</h3>
+<p>US Treasury jedinica za finansijske zločine (FinCEN) isključila je sisteme nakon neovlašćenog pristupa ograničenom skupu sistema i produžila rokove za podnošenje prijava. Incident je potvrđen kao najnoviji slučaj proboja u federalne sisteme.</p>
+<p><small><a href="https://www.theregister.com/security/2026/11/25/us-treasury-financial-crimes-unit-becomes-latest-fed-breach-victim/5312165">The Register Security</a> · <a href="https://therecord.media/treasury-fincen-takes-systems-offline-after-cyber-incident">The Record</a></small></p>
+<h3>Microsoft NTLM promene lome third-party prijave</h3>
+<p>Microsoft potvrđuje probleme sa autentifikacijom nakon novembarskih bezbednosnih zakrpa koje rešavaju RCE ranjivost visokog rizika. NTLM izmene uzrokuju pad third-party login integracija, a Microsoft poručuje da nije njihova greška ako je implementacija pogrešna.</p>
+<p><small><a href="https://www.theregister.com/security/2026/11/25/microsofts-ntlm-security-changes-trip-up-third-party-logins/5312085">The Register Security</a> · <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/">BleepingComputer</a></small></p>
+<h3>CISA upozorava na nezakrpljenu ranjivost u Danfoss kontrolerima</h3>
+<p>CISA upozorava na kritičnu ranjivost u Danfoss AK-SM 8xxA kontrolerima za komercijalno hlađenje, HVAC i rasvetu koje koriste trgovci hranom. Za sada nema zakrpe, pa je potrebna mitigacija na nivou mreže.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/">BleepingComputer</a></small></p>
+<h3>Iranci sabotirali stotine zamrzivača u francuskim supermarketima</h3>
+<p>Francuska optužuje iransku cyber jedinicu za sabotažu stotina zamrzivača u supermarketima. Napad pokazuje rastuću spremnost državnih aktera da ciljaju operativnu tehnologiju u maloprodaji.</p>
+<p><small><a href="https://arstechnica.com/security/2026/11/a-familiar-iranian-hacking-group-has-found-a-new-way-to-cause-chaos/">Ars Technica Security</a></small></p>
+<h3>Ransomware napad prekinuo lečenje raka u bolnici na Gvadelupu</h3>
+<p>Francuska agencija za sajber bezbednost istražuje napad na Univerzitetsku bolnicu Gvadelupa koji je primorao odlaganje operacija, obustavu dela terapija raka i povratak na papir i olovku.</p>
+<p><small><a href="https://therecord.media/guadeloupe-ransomware-hospital-cyber">The Record</a></small></p>
+<h3>Gatwick: podaci korisnika drop-offa izloženi u proboju dobavljača</h3>
+<p>Proboj kod dobavljača AutoPay otkrio je login podatke i evidenciju vozila korisnika Gatwick drop-off usluge, uz ograničene podatke o plaćanju i mejlove korisničke podrške.</p>
+<p><small><a href="https://www.theregister.com/security/2026/11/25/gatwick-drop-off-customers-personal-data-exposed-in-supplier-breach/5312060">The Register Security</a></small></p>
+<h3>CEO firme za ransomware oporavak optužen za plaćanje otkupnina</h3>
+<p>Federalna porota optužila je izvršnog direktora firme za oporavak od ransomware-a da je lagao o uslugama i plaćao otkupnine kriminalcima. Slučaj ukazuje na rizike angažovanja posrednika u incidentima.</p>
+<p><small><a href="https://therecord.media/ransomware-doj-indictment-recovery">The Record</a></small></p>
+<h3>InfraTrust: većina eksploatisanih ranjivosti u third-party komponentama</h3>
+<p>Eclypsium izveštaj pokazuje da većina bezbednosnih saveta o eksploatisanim ranjivostima u infrastrukturi pogađa third-party softver ugrađen u proizvode, a ne kod samih proizvođača. To menja prioritete patch managementa.</p>
+<p><small><a href="https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/">BleepingComputer</a></small></p>
+<h3>PostgreSQL 19 sa značajnim performansnim dobicima</h3>
+<p>PostgreSQL 19 donosi primetna poboljšanja performansi u odnosu na verziju 18, prema benchmarkovima na AMD EPYC Venice. Izdanje je vredno testiranja pre migracije produkcijskih baza.</p>
+<p><small><a href="https://www.phoronix.com/review/postgresql-19-benchmarks">Phoronix</a></small></p>
+<h3>Linux 7.4 onemogućava LLVM Profi zbog performansi</h3>
+<p>U Linux 7.4 je onemogućena upotreba LLVM Profi algoritma za AutoFDO zbog pada performansi i patološki dugih buildova, a promena se backportuje u stable grane. Relevantno za timove koji grade kernel sa AutoFDO.</p>
+<p><small><a href="https://www.phoronix.com/news/Linux-Kernel-Disable-Profi">Phoronix</a></small></p>
+<h3>Linux 7.5 whitelistuje Intel Xeon za P2PDMA</h3>
+<p>Predstojeći Linux 7.5 pravilno omogućava peer-to-peer DMA za moderne Intel Xeon servere, nakon slične promene za AMD Zen platforme. Bitno za VMware virtualizaciju i scenarije sa direktnim DMA pristupom.</p>
+<p><small><a href="https://www.phoronix.com/news/Linux-7.5-Intel-Xeon-P2PDMA">Phoronix</a></small></p>
+<h3>Tainting kernela pri ručnom bind/unbind drajvera</h3>
+<p>Greg Kroah-Hartman je primenio patch koji označava kernel kao tainted kada korisnički prostor ručno binduje ili unbinduje drajver, kao odbranu od lažnih bug reportova fuzzera. Promena utiče na dijagnostiku i podršku.</p>
+<p><small><a href="https://lwn.net/Articles/1103714/">LWN</a></small></p>
+<h3>Australija usvojila Digital Duty of Care Act</h3>
+<p>Australijski parlament usvojio je zakon koji obavezuje online provajdere da uspostave protokole zaštite korisnika od nasilja i teških šteta. Propis menja obaveze platformi i ima ekstrateritorijalne implikacije.</p>
+<p><small><a href="https://therecord.media/australia-passes-online-safety-legislation-preempt-harms">The Record</a></small></p>
+<h3>Pop!_OS 26.04 LTS objavljen</h3>
+<p>System76 je objavio Pop!_OS 26.04 LTS baziran na Ubuntu 26.04 LTS, sa podrškom za grafičke table, automatskim ažuriranjima i novim COSMIC aplikacijama. Ažuriranja za 24.04 LTS korisnike počinju u decembru.</p>
+<p><small><a href="https://lwn.net/Articles/1109662/">LWN</a></small></p>
+<h2>Za čitanje</h2>
+<h3>Firefox uvodi Compression Dictionary Transport</h3>
+<p>Firefox 161 dodaje Compression Dictionary Transport, tehniku koja omogućava znatno manje ponovljene preuzete fajlove korišćenjem deljenih rečnika kompresije. Vredi testirati na sajtovima sa ponavljajućim assetima, uz svest o ograničenoj podršci browsera.</p>
+<p><small><a href="https://csswizardry.com/2026/11/web-perf-wednesday-019-firefox-ships-dictionary-compression/">CSS Wizardry</a></small></p>
+<h3>HAProxy WAF i Java4Shell: zašto HAProxy nije pogođen</h3>
+<p>HAProxy objašnjava da njihovi proizvodi nisu pogođeni ranjivošću Java4Shell jer ne pokreću JVM, ali WAF pravila mogu da blokiraju eksploataciju na backend servisima. Korisno kao primer kako arhitektura reverse proxyja ograničava površinu napada.</p>
+<p><small><a href="https://www.haproxy.com/blog/haproxy-enterprise-waf-protects-against-java4shell-cve-2026-114938">HAProxy</a></small></p>]]></description></item>
+</channel></rss>
